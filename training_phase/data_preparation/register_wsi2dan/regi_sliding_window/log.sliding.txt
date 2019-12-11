@@ -1,0 +1,4 @@
+  File "sliding_refined_para.py", line 241
+    for file_i in files:
+                       ^
+TabError: inconsistent use of tabs and spaces in indentation

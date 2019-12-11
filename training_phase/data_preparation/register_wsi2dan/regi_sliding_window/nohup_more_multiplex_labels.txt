@@ -1,0 +1,371 @@
+dan folder /scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/Danielle_raw_dots_final/raw_unzipped/L22800_20/
+dan files []
+wsi /gpfs/scratch/mazhao/multiplex-wsi/N22800-multires.tif
+dan folder /scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/Danielle_raw_dots_final/raw_unzipped/L28352_2/
+dan files ['/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/Danielle_raw_dots_final/raw_unzipped/L28352_2/Image_979.tif', '/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/Danielle_raw_dots_final/raw_unzipped/L28352_2/Image_981.tif', '/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/Danielle_raw_dots_final/raw_unzipped/L28352_2/Image_978.tif', '/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/Danielle_raw_dots_final/raw_unzipped/L28352_2/Image_984.tif', '/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/Danielle_raw_dots_final/raw_unzipped/L28352_2/Image_982.tif']
+wsi /gpfs/scratch/mazhao/multiplex-wsi/L28352-multires.tif
+dan_tile_idx Image_979
+dan_on_wsi_size [3244 2027]
+dan_on_wsi_size_level [405 253]
+ref_img_level.shape (253, 405, 3)
+dan_on_wsi_size_level [405 253]
+(top_left_col,top_left_row) (111918, 61824)
+win_size [6488 4054] [9732 6081]
+low_res_size [149872 107704]
+upper_left_in_low [111918  61824]
+oslide_size 0: [149872 107704] 0 : [149872 107704]
+upper_left_in_wsi [111918  61824]
+crop_size [9732 6081]
+window_level_new.shape (3598, 5759, 3)
+img1_ref_bgr.shape (1200, 1920, 3)
+img2_wsi_bgr.shape (3598, 5759, 3)
+matches 1200
+dist_list.mean() 19.505
+matches[0].distance =  5.0
+matches[-1].distance =  27.0
+##img2Reg.shape (1200, 1920, 3)
+save ./regi_out_20190603_more_multiplex_labels/L28352_2/L28352-multires_Image_979_ratio1.0_wsi.png
+registered.shape (1200, 1920, 3)
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/Danielle_raw_dots_final/raw_unzipped/L28352_2/Image_979.tifregi success
+dan_tile_idx Image_981
+dan_on_wsi_size [3244 2027]
+dan_on_wsi_size_level [405 253]
+ref_img_level.shape (253, 405, 3)
+dan_on_wsi_size_level [405 253]
+(top_left_col,top_left_row) (115162, 71959)
+win_size [6488 4054] [9732 6081]
+low_res_size [149872 107704]
+upper_left_in_low [115162  71959]
+oslide_size 0: [149872 107704] 0 : [149872 107704]
+upper_left_in_wsi [115162  71959]
+crop_size [9732 6081]
+window_level_new.shape (3598, 5759, 3)
+img1_ref_bgr.shape (1200, 1920, 3)
+img2_wsi_bgr.shape (3598, 5759, 3)
+matches 1200
+dist_list.mean() 19.708333333333332
+matches[0].distance =  4.0
+matches[-1].distance =  28.0
+##img2Reg.shape (1200, 1920, 3)
+save ./regi_out_20190603_more_multiplex_labels/L28352_2/L28352-multires_Image_981_ratio1.0_wsi.png
+registered.shape (1200, 1920, 3)
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/Danielle_raw_dots_final/raw_unzipped/L28352_2/Image_981.tifregi success
+dan_tile_idx Image_978
+dan_on_wsi_size [3244 2027]
+dan_on_wsi_size_level [405 253]
+ref_img_level.shape (253, 405, 3)
+dan_on_wsi_size_level [405 253]
+(top_left_col,top_left_row) (79478, 47635)
+win_size [6488 4054] [9732 6081]
+low_res_size [149872 107704]
+upper_left_in_low [79478 47635]
+oslide_size 0: [149872 107704] 0 : [149872 107704]
+upper_left_in_wsi [79478 47635]
+crop_size [9732 6081]
+window_level_new.shape (3598, 5759, 3)
+img1_ref_bgr.shape (1200, 1920, 3)
+img2_wsi_bgr.shape (3598, 5759, 3)
+matches 1200
+dist_list.mean() 21.924166666666668
+matches[0].distance =  4.0
+matches[-1].distance =  30.0
+##img2Reg.shape (1200, 1920, 3)
+save ./regi_out_20190603_more_multiplex_labels/L28352_2/L28352-multires_Image_978_ratio1.0_wsi.png
+registered.shape (1200, 1920, 3)
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/Danielle_raw_dots_final/raw_unzipped/L28352_2/Image_978.tifregi success
+dan_tile_idx Image_984
+dan_on_wsi_size [3244 2027]
+dan_on_wsi_size_level [405 253]
+ref_img_level.shape (253, 405, 3)
+dan_on_wsi_size_level [405 253]
+(top_left_col,top_left_row) (115162, 76013)
+win_size [6488 4054] [9732 6081]
+low_res_size [149872 107704]
+upper_left_in_low [115162  76013]
+oslide_size 0: [149872 107704] 0 : [149872 107704]
+upper_left_in_wsi [115162  76013]
+crop_size [9732 6081]
+window_level_new.shape (3598, 5759, 3)
+img1_ref_bgr.shape (1200, 1920, 3)
+img2_wsi_bgr.shape (3598, 5759, 3)
+matches 1200
+dist_list.mean() 22.020833333333332
+matches[0].distance =  5.0
+matches[-1].distance =  30.0
+##img2Reg.shape (1200, 1920, 3)
+save ./regi_out_20190603_more_multiplex_labels/L28352_2/L28352-multires_Image_984_ratio1.0_wsi.png
+registered.shape (1200, 1920, 3)
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/Danielle_raw_dots_final/raw_unzipped/L28352_2/Image_984.tifregi success
+dan_tile_idx Image_982
+dan_on_wsi_size [3244 2027]
+dan_on_wsi_size_level [405 253]
+ref_img_level.shape (253, 405, 3)
+dan_on_wsi_size_level [405 253]
+(top_left_col,top_left_row) (115162, 73986)
+win_size [6488 4054] [9732 6081]
+low_res_size [149872 107704]
+upper_left_in_low [115162  73986]
+oslide_size 0: [149872 107704] 0 : [149872 107704]
+upper_left_in_wsi [115162  73986]
+crop_size [9732 6081]
+window_level_new.shape (3598, 5759, 3)
+img1_ref_bgr.shape (1200, 1920, 3)
+img2_wsi_bgr.shape (3598, 5759, 3)
+matches 1200
+dist_list.mean() 21.439166666666665
+matches[0].distance =  2.0
+matches[-1].distance =  30.0
+##img2Reg.shape (1200, 1920, 3)
+save ./regi_out_20190603_more_multiplex_labels/L28352_2/L28352-multires_Image_982_ratio1.0_wsi.png
+registered.shape (1200, 1920, 3)
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/Danielle_raw_dots_final/raw_unzipped/L28352_2/Image_982.tifregi success
+dan folder /scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/Danielle_raw_dots_final/raw_unzipped/L29978_2/
+dan files ['/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/Danielle_raw_dots_final/raw_unzipped/L29978_2/Image_971.tif', '/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/Danielle_raw_dots_final/raw_unzipped/L29978_2/Image_975.tif', '/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/Danielle_raw_dots_final/raw_unzipped/L29978_2/Image_976.tif', '/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/Danielle_raw_dots_final/raw_unzipped/L29978_2/Image_972.tif', '/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/Danielle_raw_dots_final/raw_unzipped/L29978_2/Image_973.tif']
+wsi /gpfs/scratch/mazhao/multiplex-wsi/L29978-multires.tif
+dan_tile_idx Image_971
+dan_on_wsi_size [3244 2027]
+dan_on_wsi_size_level [405 253]
+ref_img_level.shape (253, 405, 3)
+dan_on_wsi_size_level [405 253]
+(top_left_col,top_left_row) (24330, 73986)
+win_size [6488 4054] [9732 6081]
+low_res_size [129190  95240]
+upper_left_in_low [24330 73986]
+oslide_size 0: [129190  95240] 0 : [129190  95240]
+upper_left_in_wsi [24330 73986]
+crop_size [9732 6081]
+window_level_new.shape (3598, 5759, 3)
+img1_ref_bgr.shape (1200, 1920, 3)
+img2_wsi_bgr.shape (3598, 5759, 3)
+matches 1200
+dist_list.mean() 16.435833333333335
+matches[0].distance =  4.0
+matches[-1].distance =  21.0
+##img2Reg.shape (1200, 1920, 3)
+save ./regi_out_20190603_more_multiplex_labels/L29978_2/L29978-multires_Image_971_ratio1.0_wsi.png
+registered.shape (1200, 1920, 3)
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/Danielle_raw_dots_final/raw_unzipped/L29978_2/Image_971.tifregi success
+dan_tile_idx Image_975
+dan_on_wsi_size [3244 2027]
+dan_on_wsi_size_level [405 253]
+ref_img_level.shape (253, 405, 3)
+dan_on_wsi_size_level [405 253]
+(top_left_col,top_left_row) (27574, 39527)
+win_size [6488 4054] [9732 6081]
+low_res_size [129190  95240]
+upper_left_in_low [27574 39527]
+oslide_size 0: [129190  95240] 0 : [129190  95240]
+upper_left_in_wsi [27574 39527]
+crop_size [9732 6081]
+window_level_new.shape (3598, 5759, 3)
+img1_ref_bgr.shape (1200, 1920, 3)
+img2_wsi_bgr.shape (3598, 5759, 3)
+matches 1200
+dist_list.mean() 17.566666666666666
+matches[0].distance =  6.0
+matches[-1].distance =  23.0
+##img2Reg.shape (1200, 1920, 3)
+save ./regi_out_20190603_more_multiplex_labels/L29978_2/L29978-multires_Image_975_ratio1.0_wsi.png
+registered.shape (1200, 1920, 3)
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/Danielle_raw_dots_final/raw_unzipped/L29978_2/Image_975.tifregi success
+dan_tile_idx Image_976
+dan_on_wsi_size [3244 2027]
+dan_on_wsi_size_level [405 253]
+ref_img_level.shape (253, 405, 3)
+dan_on_wsi_size_level [405 253]
+(top_left_col,top_left_row) (24330, 37500)
+win_size [6488 4054] [9732 6081]
+low_res_size [129190  95240]
+upper_left_in_low [24330 37500]
+oslide_size 0: [129190  95240] 0 : [129190  95240]
+upper_left_in_wsi [24330 37500]
+crop_size [9732 6081]
+window_level_new.shape (3598, 5759, 3)
+img1_ref_bgr.shape (1200, 1920, 3)
+img2_wsi_bgr.shape (3598, 5759, 3)
+matches 1200
+dist_list.mean() 20.033333333333335
+matches[0].distance =  6.0
+matches[-1].distance =  27.0
+##img2Reg.shape (1200, 1920, 3)
+save ./regi_out_20190603_more_multiplex_labels/L29978_2/L29978-multires_Image_976_ratio1.0_wsi.png
+registered.shape (1200, 1920, 3)
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/Danielle_raw_dots_final/raw_unzipped/L29978_2/Image_976.tifregi success
+dan_tile_idx Image_972
+dan_on_wsi_size [3244 2027]
+dan_on_wsi_size_level [405 253]
+ref_img_level.shape (253, 405, 3)
+dan_on_wsi_size_level [405 253]
+(top_left_col,top_left_row) (14598, 49662)
+win_size [6488 4054] [9732 6081]
+low_res_size [129190  95240]
+upper_left_in_low [14598 49662]
+oslide_size 0: [129190  95240] 0 : [129190  95240]
+upper_left_in_wsi [14598 49662]
+crop_size [9732 6081]
+window_level_new.shape (3598, 5759, 3)
+img1_ref_bgr.shape (1200, 1920, 3)
+img2_wsi_bgr.shape (3598, 5759, 3)
+matches 1200
+dist_list.mean() 19.203333333333333
+matches[0].distance =  4.0
+matches[-1].distance =  26.0
+##img2Reg.shape (1200, 1920, 3)
+save ./regi_out_20190603_more_multiplex_labels/L29978_2/L29978-multires_Image_972_ratio1.0_wsi.png
+registered.shape (1200, 1920, 3)
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/Danielle_raw_dots_final/raw_unzipped/L29978_2/Image_972.tifregi success
+dan_tile_idx Image_973
+dan_on_wsi_size [3244 2027]
+dan_on_wsi_size_level [405 253]
+ref_img_level.shape (253, 405, 3)
+dan_on_wsi_size_level [405 253]
+(top_left_col,top_left_row) (24330, 51689)
+win_size [6488 4054] [9732 6081]
+low_res_size [129190  95240]
+upper_left_in_low [24330 51689]
+oslide_size 0: [129190  95240] 0 : [129190  95240]
+upper_left_in_wsi [24330 51688]
+crop_size [9732 6081]
+window_level_new.shape (3598, 5759, 3)
+img1_ref_bgr.shape (1200, 1920, 3)
+img2_wsi_bgr.shape (3598, 5759, 3)
+matches 1058
+dist_list.mean() 21.687145557655956
+matches[0].distance =  5.0
+matches[-1].distance =  28.0
+##img2Reg.shape (1200, 1920, 3)
+save ./regi_out_20190603_more_multiplex_labels/L29978_2/L29978-multires_Image_973_ratio1.0_wsi.png
+registered.shape (1200, 1920, 3)
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/Danielle_raw_dots_final/raw_unzipped/L29978_2/Image_973.tifregi success
+dan folder /scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/Danielle_raw_dots_final/raw_unzipped/M036_15/
+dan files ['/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/Danielle_raw_dots_final/raw_unzipped/M036_15/Image_831.tif', '/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/Danielle_raw_dots_final/raw_unzipped/M036_15/Image_833.tif', '/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/Danielle_raw_dots_final/raw_unzipped/M036_15/Image_829.tif', '/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/Danielle_raw_dots_final/raw_unzipped/M036_15/Image_828.tif', '/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/Danielle_raw_dots_final/raw_unzipped/M036_15/Image_830.tif']
+wsi /gpfs/scratch/mazhao/multiplex-wsi/M036-multires.tif
+dan_tile_idx Image_831
+dan_on_wsi_size [3244 2027]
+dan_on_wsi_size_level [405 253]
+ref_img_level.shape (253, 405, 3)
+dan_on_wsi_size_level [405 253]
+(top_left_col,top_left_row) (27574, 55743)
+win_size [6488 4054] [9732 6081]
+low_res_size [203622 130104]
+upper_left_in_low [27574 55743]
+oslide_size 0: [203622 130104] 0 : [203622 130104]
+upper_left_in_wsi [27574 55743]
+crop_size [9732 6081]
+window_level_new.shape (3598, 5759, 3)
+img1_ref_bgr.shape (1200, 1920, 3)
+img2_wsi_bgr.shape (3598, 5759, 3)
+matches 1200
+dist_list.mean() 18.7075
+matches[0].distance =  6.0
+matches[-1].distance =  24.0
+##img2Reg.shape (1200, 1920, 3)
+save ./regi_out_20190603_more_multiplex_labels/M036_15/M036-multires_Image_831_ratio1.0_wsi.png
+registered.shape (1200, 1920, 3)
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/Danielle_raw_dots_final/raw_unzipped/M036_15/Image_831.tifregi success
+dan_tile_idx Image_833
+dan_on_wsi_size [3244 2027]
+dan_on_wsi_size_level [405 253]
+ref_img_level.shape (253, 405, 3)
+dan_on_wsi_size_level [405 253]
+(top_left_col,top_left_row) (50282, 82094)
+win_size [6488 4054] [9732 6081]
+low_res_size [203622 130104]
+upper_left_in_low [50282 82094]
+oslide_size 0: [203622 130104] 0 : [203622 130104]
+upper_left_in_wsi [50282 82094]
+crop_size [9732 6081]
+window_level_new.shape (3598, 5759, 3)
+img1_ref_bgr.shape (1200, 1920, 3)
+img2_wsi_bgr.shape (3598, 5759, 3)
+matches 1200
+dist_list.mean() 17.916666666666668
+matches[0].distance =  3.0
+matches[-1].distance =  23.0
+##img2Reg.shape (1200, 1920, 3)
+save ./regi_out_20190603_more_multiplex_labels/M036_15/M036-multires_Image_833_ratio1.0_wsi.png
+registered.shape (1200, 1920, 3)
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/Danielle_raw_dots_final/raw_unzipped/M036_15/Image_833.tifregi success
+dan_tile_idx Image_829
+dan_on_wsi_size [3244 2027]
+dan_on_wsi_size_level [405 253]
+ref_img_level.shape (253, 405, 3)
+dan_on_wsi_size_level [405 253]
+(top_left_col,top_left_row) (79478, 9122)
+win_size [6488 4054] [9732 6081]
+low_res_size [203622 130104]
+upper_left_in_low [79478  9122]
+oslide_size 0: [203622 130104] 0 : [203622 130104]
+upper_left_in_wsi [79478  9122]
+crop_size [9732 6081]
+window_level_new.shape (3598, 5759, 3)
+img1_ref_bgr.shape (1200, 1920, 3)
+img2_wsi_bgr.shape (3598, 5759, 3)
+matches 1200
+dist_list.mean() 29.523333333333333
+matches[0].distance =  12.0
+matches[-1].distance =  34.0
+##img2Reg.shape (1200, 1920, 3)
+save ./regi_out_20190603_more_multiplex_labels/M036_15/M036-multires_Image_829_ratio1.0_wsi.png
+registered.shape (1200, 1920, 3)
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/Danielle_raw_dots_final/raw_unzipped/M036_15/Image_829.tifregi success
+dan_tile_idx Image_828
+dan_on_wsi_size [3244 2027]
+dan_on_wsi_size_level [405 253]
+ref_img_level.shape (253, 405, 3)
+dan_on_wsi_size_level [405 253]
+(top_left_col,top_left_row) (34062, 78040)
+win_size [6488 4054] [9732 6081]
+low_res_size [203622 130104]
+upper_left_in_low [34062 78040]
+oslide_size 0: [203622 130104] 0 : [203622 130104]
+upper_left_in_wsi [34062 78040]
+crop_size [9732 6081]
+window_level_new.shape (3598, 5759, 3)
+img1_ref_bgr.shape (1200, 1920, 3)
+img2_wsi_bgr.shape (3598, 5759, 3)
+matches 1200
+dist_list.mean() 18.625833333333333
+matches[0].distance =  6.0
+matches[-1].distance =  24.0
+##img2Reg.shape (1200, 1920, 3)
+save ./regi_out_20190603_more_multiplex_labels/M036_15/M036-multires_Image_828_ratio1.0_wsi.png
+registered.shape (1200, 1920, 3)
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/Danielle_raw_dots_final/raw_unzipped/M036_15/Image_828.tifregi success
+dan_tile_idx Image_830
+dan_on_wsi_size [3244 2027]
+dan_on_wsi_size_level [405 253]
+ref_img_level.shape (253, 405, 3)
+dan_on_wsi_size_level [405 253]
+(top_left_col,top_left_row) (50282, 96283)
+win_size [6488 4054] [9732 6081]
+low_res_size [203622 130104]
+upper_left_in_low [50282 96283]
+oslide_size 0: [203622 130104] 0 : [203622 130104]
+upper_left_in_wsi [50282 96283]
+crop_size [9732 6081]
+window_level_new.shape (3598, 5759, 3)
+img1_ref_bgr.shape (1200, 1920, 3)
+img2_wsi_bgr.shape (3598, 5759, 3)
+matches 1200
+dist_list.mean() 18.611666666666668
+matches[0].distance =  2.0
+matches[-1].distance =  25.0
+##img2Reg.shape (1200, 1920, 3)
+save ./regi_out_20190603_more_multiplex_labels/M036_15/M036-multires_Image_830_ratio1.0_wsi.png
+registered.shape (1200, 1920, 3)
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/Danielle_raw_dots_final/raw_unzipped/M036_15/Image_830.tifregi success
+dan folder /scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/Danielle_raw_dots_final/raw_unzipped/P24146_90/
+dan files ['/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/Danielle_raw_dots_final/raw_unzipped/P24146_90/Image_858.tif', '/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/Danielle_raw_dots_final/raw_unzipped/P24146_90/Image_861.tif', '/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/Danielle_raw_dots_final/raw_unzipped/P24146_90/Image_859.tif', '/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/Danielle_raw_dots_final/raw_unzipped/P24146_90/Image_857.tif', '/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/Danielle_raw_dots_final/raw_unzipped/P24146_90/Image_860.tif']
+wsi /gpfs/scratch/mazhao/multiplex-wsi/P24146-multires.tif
+dan_tile_idx Image_858
+dan_on_wsi_size [3244 2027]
+dan_on_wsi_size_level [405 253]
+ref_img_level.shape (253, 405, 3)
+dan_on_wsi_size_level [405 253]
+Traceback (most recent call last):
+  File "sliding_refined_para-final_version_sliding_9.20.py", line 345, in <module>
+    sliding_window.sim_matrix = np.load(slide_results+slide_name+'_'+dan_tile_idx+'_'+'sim_matrix.npy')
+  File "/opt/conda/envs/cntk/lib/python3.6/site-packages/numpy/lib/npyio.py", line 384, in load
+    fid = open(file, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: './slide_results_20190603_more_multiplex_labels/P24146-multires_Image_858_sim_matrix.npy'

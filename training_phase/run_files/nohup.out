@@ -1,0 +1,93 @@
+ByMZ-ICCV_Train_with_dots_All_Data_newnet_5.0_backweight0.1_newBGR_aug_no_unknown-2-0.1-1_1_1_1_1_1_1_1_1_1-0.0005-1.0-stain7-mu1.0-sigma1.0-start_stain0-GPU4
+Training!!!!!!!
+../../../output/DOTS_output//ByMZ-ICCV_Train_with_dots_All_Data_newnet_5.0_backweight0.1_newBGR_aug_no_unknown-2-0.1-1_1_1_1_1_1_1_1_1_1-0.0005-1.0-stain7-mu1.0-sigma1.0-start_stain0-GPU4/log.txt
+ByMZ-ICCV_Train_with_dots_All_Data_newnet_5.1_backweight0.1_newBGR_aug_no_unknown_color-aug-2-0.1-1_1_1_1_1_1_1_1_1_1-0.0005-1.0-stain7-mu1.0-sigma1.0-start_stain0-GPU4
+Training!!!!!!!
+../../../output/DOTS_output//ByMZ-ICCV_Train_with_dots_All_Data_newnet_5.1_backweight0.1_newBGR_aug_no_unknown_color-aug-2-0.1-1_1_1_1_1_1_1_1_1_1-0.0005-1.0-stain7-mu1.0-sigma1.0-start_stain0-GPU4/log.txt
+ByMZ-ICCV_Train_with_dots_All_Data_newnet_5.2_backweight0.1_newBGR_aug_no_unknown_color-aug_no-color-extraction-2-0.1-1_1_1_1_1_1_1_1_1_1-0.0005-1.0-stain7-mu1.0-sigma1.0-start_stain0-GPU5
+Training!!!!!!!
+../../../output/DOTS_output//ByMZ-ICCV_Train_with_dots_All_Data_newnet_5.2_backweight0.1_newBGR_aug_no_unknown_color-aug_no-color-extraction-2-0.1-1_1_1_1_1_1_1_1_1_1-0.0005-1.0-stain7-mu1.0-sigma1.0-start_stain0-GPU5/log.txt
+ByMZ-ICCV_Train_with_dots_All_Data_newnet_5.2_backweight0.1_newBGR_aug_no_unknown_color-aug_no-color-extraction-2-0.1-1_1_1_1_1_1_1_1_1_1-0.0005-1.0-stain7-mu1.0-sigma1.0-start_stain0-GPU5
+Training!!!!!!!
+../../../output/DOTS_output//ByMZ-ICCV_Train_with_dots_All_Data_newnet_5.2_backweight0.1_newBGR_aug_no_unknown_color-aug_no-color-extraction-2-0.1-1_1_1_1_1_1_1_1_1_1-0.0005-1.0-stain7-mu1.0-sigma1.0-start_stain0-GPU5/log.txt
+ByMZ-ICCV_Train_with_dots_All_Data_newnet_5.2_backweight0.1_newBGR_aug_no_unknown_color-aug_no-color-extraction-2-0.1-1_1_1_1_1_1_1_1_1_1-0.0005-1.0-stain7-mu1.0-sigma1.0-start_stain0-GPU5
+Training!!!!!!!
+../../../output/DOTS_output//ByMZ-ICCV_Train_with_dots_All_Data_newnet_5.2_backweight0.1_newBGR_aug_no_unknown_color-aug_no-color-extraction-2-0.1-1_1_1_1_1_1_1_1_1_1-0.0005-1.0-stain7-mu1.0-sigma1.0-start_stain0-GPU5/log.txt
+ByMZ-ICCV_Train_with_dots_All_Data_newnet_5.2_backweight0.1_newBGR_aug_no_unknown_color-aug_no-color-extraction-2-0.1-1_1_1_1_1_1_1_1_1_1-0.0005-1.0-stain7-mu1.0-sigma1.0-start_stain0-GPU5
+Training!!!!!!!
+../../../output/DOTS_output//ByMZ-ICCV_Train_with_dots_All_Data_newnet_5.2_backweight0.1_newBGR_aug_no_unknown_color-aug_no-color-extraction-2-0.1-1_1_1_1_1_1_1_1_1_1-0.0005-1.0-stain7-mu1.0-sigma1.0-start_stain0-GPU5/log.txt
+run.sh: line 60: XP_NAME}/log.txt: No such file or directory
+run.sh: line 61: syntax error near unexpected token `fi'
+run.sh: line 61: `fi'
+ByMZ-ICCV_Train_with_dots_All_Data_newnet_5.4_backweight0.1_newBGR_aug_no_unknown_color-aug_domain-shift-2-0.1-1_1_1_1_1_1_1_1_1_1-0.0005-1.0-stain7-mu1.0-sigma1.0-start_stain0-GPU5
+Training!!!!!!!
+../../../output/DOTS_output//ByMZ-ICCV_Train_with_dots_All_Data_newnet_5.4_backweight0.1_newBGR_aug_no_unknown_color-aug_domain-shift-2-0.1-1_1_1_1_1_1_1_1_1_1-0.0005-1.0-stain7-mu1.0-sigma1.0-start_stain0-GPU5/log.txt
+ByMZ-ICCV_Train_with_dots_All_Data_newnet_5.4_backweight0.1_newBGR_aug_no_unknown_color-aug_domain-shift-2-0.1-1_1_1_1_1_1_1_1_1_1-0.0005-1.0-stain7-mu1.0-sigma1.0-start_stain0-GPU5
+Training!!!!!!!
+../../../output/DOTS_output//ByMZ-ICCV_Train_with_dots_All_Data_newnet_5.4_backweight0.1_newBGR_aug_no_unknown_color-aug_domain-shift-2-0.1-1_1_1_1_1_1_1_1_1_1-0.0005-1.0-stain7-mu1.0-sigma1.0-start_stain0-GPU5/log.txt
+ByMZ-ICCV_Train_with_dots_All_Data_newnet_5.5_backweight0.1_newBGR_aug_no_unknown_color-aug0.2_domain-shift_6-7ratio_5wsi-regi-2-0.1-1_1_1_1_1_1_1_1_1_1-0.0005-1.0-stain7-mu1.0-sigma1.0-start_stain0-GPU5
+Training!!!!!!!
+../../../output/DOTS_output//ByMZ-ICCV_Train_with_dots_All_Data_newnet_5.5_backweight0.1_newBGR_aug_no_unknown_color-aug0.2_domain-shift_6-7ratio_5wsi-regi-2-0.1-1_1_1_1_1_1_1_1_1_1-0.0005-1.0-stain7-mu1.0-sigma1.0-start_stain0-GPU5/log.txt
+ByMZ-ICCV_Train_with_dots_All_Data_newnet_5.6_backweight0.1_newBGR_aug_no_unknown_color-aug0.2_domain-shift_6-7ratio_5wsi-regi_wsi-no-trans-2-0.1-1_1_1_1_1_1_1_1_1_1-0.0005-1.0-stain7-mu1.0-sigma1.0-start_stain0-GPU6
+Training!!!!!!!
+../../../output/DOTS_output//ByMZ-ICCV_Train_with_dots_All_Data_newnet_5.6_backweight0.1_newBGR_aug_no_unknown_color-aug0.2_domain-shift_6-7ratio_5wsi-regi_wsi-no-trans-2-0.1-1_1_1_1_1_1_1_1_1_1-0.0005-1.0-stain7-mu1.0-sigma1.0-start_stain0-GPU6/log.txt
+ByMZ-ICCV_Train_with_dots_All_Data_newnet_5.7_backweight0.1_newBGR_aug_no_unknown_color-aug0.2_domain-shift_6-7ratio_10wsi-regi_wsi-no-trans-2-0.1-1_1_1_1_1_1_1_1_1_1-0.0005-1.0-stain7-mu1.0-sigma1.0-start_stain0-GPU7
+Training!!!!!!!
+../../../output/DOTS_output//ByMZ-ICCV_Train_with_dots_All_Data_newnet_5.7_backweight0.1_newBGR_aug_no_unknown_color-aug0.2_domain-shift_6-7ratio_10wsi-regi_wsi-no-trans-2-0.1-1_1_1_1_1_1_1_1_1_1-0.0005-1.0-stain7-mu1.0-sigma1.0-start_stain0-GPU7/log.txt
+ByMZ-ICCV_Train_with_dots_All_Data_newnet_5.7_backweight0.1_newBGR_aug_no_unknown_color-aug0.2_domain-shift_6-7ratio_10wsi-regi_wsi-no-trans-2-0.1-1_1_1_1_1_1_1_1_1_1-0.0005-1.0-stain7-mu1.0-sigma1.0-start_stain0-GPU7
+Training!!!!!!!
+../../../output/DOTS_output//ByMZ-ICCV_Train_with_dots_All_Data_newnet_5.7_backweight0.1_newBGR_aug_no_unknown_color-aug0.2_domain-shift_6-7ratio_10wsi-regi_wsi-no-trans-2-0.1-1_1_1_1_1_1_1_1_1_1-0.0005-1.0-stain7-mu1.0-sigma1.0-start_stain0-GPU7/log.txt
+ByMZ-ICCV_Train_with_dots_All_Data_newnet_5.8_backweight0.1_newBGR_aug_no_unknown_color-aug0.2_domain-shift_6-7ratio_10wsiOnly-regi_wsi-no-trans-2-0.1-1_1_1_1_1_1_1_1_1_1-0.0005-1.0-stain7-mu1.0-sigma1.0-start_stain0-GPU2
+Training!!!!!!!
+../../../output/DOTS_output//ByMZ-ICCV_Train_with_dots_All_Data_newnet_5.8_backweight0.1_newBGR_aug_no_unknown_color-aug0.2_domain-shift_6-7ratio_10wsiOnly-regi_wsi-no-trans-2-0.1-1_1_1_1_1_1_1_1_1_1-0.0005-1.0-stain7-mu1.0-sigma1.0-start_stain0-GPU2/log.txt
+ByMZ-ICCV_Train_with_dots_All_Data_newnet_5.7_backweight0.1_newBGR_aug_no_unknown_color-aug0.2_domain-shift_6-7ratio_10wsi-regi_wsi-no-trans-2-0.1-1_1_1_1_1_1_1_1_1_1-0.0005-1.0-stain7-mu1.0-sigma1.0-start_stain0-GPU7
+Training!!!!!!!
+../../../output/DOTS_output//ByMZ-ICCV_Train_with_dots_All_Data_newnet_5.7_backweight0.1_newBGR_aug_no_unknown_color-aug0.2_domain-shift_6-7ratio_10wsi-regi_wsi-no-trans-2-0.1-1_1_1_1_1_1_1_1_1_1-0.0005-1.0-stain7-mu1.0-sigma1.0-start_stain0-GPU7/log.txt
+ByMZ-ICCV_Train_with_dots_All_Data_newnet_5.7_backweight0.1_newBGR_aug_no_unknown_color-aug0.2_domain-shift_6-7ratio_10wsi-regi_wsi-no-trans-2-0.1-1_1_1_1_1_1_1_1_1_1-0.0005-1.0-stain7-mu1.0-sigma1.0-start_stain0-GPU7
+Training!!!!!!!
+../../../output/DOTS_output//ByMZ-ICCV_Train_with_dots_All_Data_newnet_5.7_backweight0.1_newBGR_aug_no_unknown_color-aug0.2_domain-shift_6-7ratio_10wsi-regi_wsi-no-trans-2-0.1-1_1_1_1_1_1_1_1_1_1-0.0005-1.0-stain7-mu1.0-sigma1.0-start_stain0-GPU7/log.txt
+ByMZ-ICCV_Train_with_dots_All_Data_newnet_5.8_backweight0.1_newBGR_aug_no_unknown_color-aug0.2_domain-shift_6-7ratio_10wsiOnly-regi_wsi-no-trans-2-0.1-1_1_1_1_1_1_1_1_1_1-0.0005-1.0-stain7-mu1.0-sigma1.0-start_stain0-GPU2
+Training!!!!!!!
+../../../output/DOTS_output//ByMZ-ICCV_Train_with_dots_All_Data_newnet_5.8_backweight0.1_newBGR_aug_no_unknown_color-aug0.2_domain-shift_6-7ratio_10wsiOnly-regi_wsi-no-trans-2-0.1-1_1_1_1_1_1_1_1_1_1-0.0005-1.0-stain7-mu1.0-sigma1.0-start_stain0-GPU2/log.txt
+run.sh: line 60: g.txt: command not found
+run.sh: line 61: syntax error near unexpected token `fi'
+run.sh: line 61: `fi'
+run.sh: line 60: raining: command not found
+run.sh: line 60: aw: command not found
+run.sh: line 60: aw: command not found
+ByMZ-ICCV_Train_with_dots_All_Data_newnet_6.0_backweight0.1_newBGR_aug_no_unknown_color-aug0.2_domain-shift_6-7ratio_60wsi-only-2-0.1-1_1_1_1_1_1_1_1_1_1-0.0005-1.0-stain7-mu1.0-sigma1.0-start_stain0-GPU7
+Training!!!!!!!
+../../../output/DOTS_output//ByMZ-ICCV_Train_with_dots_All_Data_newnet_6.0_backweight0.1_newBGR_aug_no_unknown_color-aug0.2_domain-shift_6-7ratio_60wsi-only-2-0.1-1_1_1_1_1_1_1_1_1_1-0.0005-1.0-stain7-mu1.0-sigma1.0-start_stain0-GPU7/log.txt
+run.sh: line 60: draw: command not found
+ByMZ-ICCV_Train_with_dots_All_Data_newnet_6.1_backweight0.1_newBGR_aug_no_unknown_color-aug0.2_domain-shift_6-7ratio_60wsi-dan-2-0.1-1_1_1_1_1_1_1_1_1_1-0.0005-1.0-stain7-mu1.0-sigma1.0-start_stain0-GPU6
+Training!!!!!!!
+../../../output/DOTS_output//ByMZ-ICCV_Train_with_dots_All_Data_newnet_6.1_backweight0.1_newBGR_aug_no_unknown_color-aug0.2_domain-shift_6-7ratio_60wsi-dan-2-0.1-1_1_1_1_1_1_1_1_1_1-0.0005-1.0-stain7-mu1.0-sigma1.0-start_stain0-GPU6/log.txt
+ByMZ-ICCV_Train_with_dots_All_Data_newnet_6.0_backweight0.1_newBGR_aug_no_unknown_color-aug0.2_domain-shift_6-7ratio_60wsi-only-2-0.1-1_1_1_1_1_1_1_1_1_1-0.0005-1.0-stain7-mu1.0-sigma1.0-start_stain0-GPU7
+Training!!!!!!!
+../../../output/DOTS_output//ByMZ-ICCV_Train_with_dots_All_Data_newnet_6.0_backweight0.1_newBGR_aug_no_unknown_color-aug0.2_domain-shift_6-7ratio_60wsi-only-2-0.1-1_1_1_1_1_1_1_1_1_1-0.0005-1.0-stain7-mu1.0-sigma1.0-start_stain0-GPU7/log.txt
+run.sh: line 60: i: command not found
+ByMZ-ICCV_Train_with_dots_All_Data_newnet_6.2_backweight0.1_newBGR_aug_no_unknown_color-aug0.2_domain-shift_6-7ratio_60wsi-only_no-color-aug-2-0.1-1_1_1_1_1_1_1_1_1_1-0.0005-1.0-stain7-mu1.0-sigma1.0-start_stain0-GPU7
+Training!!!!!!!
+../../../output/DOTS_output//ByMZ-ICCV_Train_with_dots_All_Data_newnet_6.2_backweight0.1_newBGR_aug_no_unknown_color-aug0.2_domain-shift_6-7ratio_60wsi-only_no-color-aug-2-0.1-1_1_1_1_1_1_1_1_1_1-0.0005-1.0-stain7-mu1.0-sigma1.0-start_stain0-GPU7/log.txt
+ByMZ-ICCV_Train_with_dots_All_Data_newnet_6.3_backweight0.1_newBGR_aug_no_unknown_color-aug0.2_domain-shift_6-7ratio_60dan-only_no-color-aug-2-0.1-1_1_1_1_1_1_1_1_1_1-0.0005-1.0-stain7-mu1.0-sigma1.0-start_stain0-GPU7
+Training!!!!!!!
+../../../output/DOTS_output//ByMZ-ICCV_Train_with_dots_All_Data_newnet_6.3_backweight0.1_newBGR_aug_no_unknown_color-aug0.2_domain-shift_6-7ratio_60dan-only_no-color-aug-2-0.1-1_1_1_1_1_1_1_1_1_1-0.0005-1.0-stain7-mu1.0-sigma1.0-start_stain0-GPU7/log.txt
+ByMZ-ICCV_Train_with_dots_All_Data_newnet_6.4_backweight0.1_newBGR_aug_no_unknown_color-aug0.2_domain-shift_6-7ratio_60dan-only_no-color-aug_noLSR-2-0.1-1_1_1_1_1_1_1_1_1_1-0.0005-1.0-stain7-mu1.0-sigma1.0-start_stain0-GPU6
+Training!!!!!!!
+../../../output/DOTS_output//ByMZ-ICCV_Train_with_dots_All_Data_newnet_6.4_backweight0.1_newBGR_aug_no_unknown_color-aug0.2_domain-shift_6-7ratio_60dan-only_no-color-aug_noLSR-2-0.1-1_1_1_1_1_1_1_1_1_1-0.0005-1.0-stain7-mu1.0-sigma1.0-start_stain0-GPU6/log.txt
+ByMZ-ICCV_Train_with_dots_All_Data_newnet_6.5_backweight0.1_newBGR_aug_no_unknown_color-aug0.2_domain-shift_6-7ratio_60wsi-only_no-color-aug_noLSR-2-0.1-1_1_1_1_1_1_1_1_1_1-0.0005-1.0-stain7-mu1.0-sigma1.0-start_stain0-GPU5
+Training!!!!!!!
+../../../output/DOTS_output//ByMZ-ICCV_Train_with_dots_All_Data_newnet_6.5_backweight0.1_newBGR_aug_no_unknown_color-aug0.2_domain-shift_6-7ratio_60wsi-only_no-color-aug_noLSR-2-0.1-1_1_1_1_1_1_1_1_1_1-0.0005-1.0-stain7-mu1.0-sigma1.0-start_stain0-GPU5/log.txt
+ByMZ-ICCV_Train_with_dots_All_Data_newnet_6.5_backweight0.1_newBGR_aug_no_unknown_color-aug0.2_domain-shift_6-7ratio_60wsi-only_no-color-aug_noLSR-2-0.1-1_1_1_1_1_1_1_1_1_1-0.0005-1.0-stain7-mu1.0-sigma1.0-start_stain0-GPU5
+Training!!!!!!!
+../../../output/DOTS_output//ByMZ-ICCV_Train_with_dots_All_Data_newnet_6.5_backweight0.1_newBGR_aug_no_unknown_color-aug0.2_domain-shift_6-7ratio_60wsi-only_no-color-aug_noLSR-2-0.1-1_1_1_1_1_1_1_1_1_1-0.0005-1.0-stain7-mu1.0-sigma1.0-start_stain0-GPU5/log.txt
+ByMZ-ICCV_Train_with_dots_All_Data_newnet_6.5_backweight0.1_newBGR_aug_no_unknown_color-aug0.2_domain-shift_6-7ratio_60wsi-only_no-color-aug_noLSR-2-0.1-1_1_1_1_1_1_1_1_1_1-0.0005-1.0-stain7-mu1.0-sigma1.0-start_stain0-GPU5
+Training!!!!!!!
+../../../output/DOTS_output//ByMZ-ICCV_Train_with_dots_All_Data_newnet_6.5_backweight0.1_newBGR_aug_no_unknown_color-aug0.2_domain-shift_6-7ratio_60wsi-only_no-color-aug_noLSR-2-0.1-1_1_1_1_1_1_1_1_1_1-0.0005-1.0-stain7-mu1.0-sigma1.0-start_stain0-GPU5/log.txt
+ByMZ-ICCV_Train_with_dots_All_Data_newnet_6.5_backweight0.1_newBGR_aug_no_unknown_color-aug0.2_domain-shift_6-7ratio_60wsi-only_no-color-aug_noLSR-2-0.1-1_1_1_1_1_1_1_1_1_1-0.0005-1.0-stain7-mu1.0-sigma1.0-start_stain0-GPU5
+Training!!!!!!!
+../../../output/DOTS_output//ByMZ-ICCV_Train_with_dots_All_Data_newnet_6.5_backweight0.1_newBGR_aug_no_unknown_color-aug0.2_domain-shift_6-7ratio_60wsi-only_no-color-aug_noLSR-2-0.1-1_1_1_1_1_1_1_1_1_1-0.0005-1.0-stain7-mu1.0-sigma1.0-start_stain0-GPU5/log.txt
+ByMZ-ICCV_Train_with_dots_All_Data_newnet_6.6_backweight0.1_newBGR_aug_no_unknown_color-aug0.2_domain-shift_6-7ratio_60wsi-only_no-color-aug_noLSR-0.84-2-2-0.1-1_1_1_1_1_1_1_1_1_1-0.0005-1.0-stain7-mu1.0-sigma1.0-start_stain0-GPU4
+Training!!!!!!!
+../../../output/DOTS_output//ByMZ-ICCV_Train_with_dots_All_Data_newnet_6.6_backweight0.1_newBGR_aug_no_unknown_color-aug0.2_domain-shift_6-7ratio_60wsi-only_no-color-aug_noLSR-0.84-2-2-0.1-1_1_1_1_1_1_1_1_1_1-0.0005-1.0-stain7-mu1.0-sigma1.0-start_stain0-GPU4/log.txt
+run.sh: line 60: aw: command not found

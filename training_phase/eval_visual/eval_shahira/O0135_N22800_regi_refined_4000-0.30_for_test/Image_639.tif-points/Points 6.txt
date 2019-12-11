@@ -1,0 +1,4 @@
+Name	CD20
+Color	-65536
+Coordinates	1
+1892.3539	694.1909

@@ -1,0 +1,323 @@
+INFO:root:Starting Model inference script at 2019-05-31 11:45:32.670179
+../../../output/DOTS_output//ByMZ-ICCV_Train_with_dots_All_Data_newnet_5.7_backweight0.1_newBGR_aug_no_unknown_color-aug0.2_domain-shift_6-7ratio_10wsi-regi_wsi-no-trans-2-0.1-1_1_1_1_1_1_1_1_1_1-0.0005-1.0-stain7-mu1.0-sigma1.0-start_stain0-GPU7/cnn_260.model
+output_shape (8, 200, 200)
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/O0135/Image_643.tif
+naip_im_channels.shape (1013, 1622, 36)
+lllllllllllllllllllllll (36, 1013, 1622)
+ori_img.shape (1013, 1622, 3)
+ori path ../../../output/DOTS_output//ByMZ-ICCV_Train_with_dots_All_Data_newnet_5.7_backweight0.1_newBGR_aug_no_unknown_color-aug0.2_domain-shift_6-7ratio_10wsi-regi_wsi-no-trans-2-0.1-1_1_1_1_1_1_1_1_1_1-0.0005-1.0-stain7-mu1.0-sigma1.0-start_stain0-GPU7/pred_out_O0135_260/Image_643_ori.png
+(24, 200, 200, 8)
+model_output.shape old (24, 400, 400, 8)
+model_output.shape new (24, 400, 400, 8)
+output.shape (1013, 1622, 8)
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/O0135/Image_643.tif 1 0.00036159620503894985
+max min 0.9804693 7.1263976e-18
+output.shape (1013, 1622, 8)
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/O0135/Image_643.tif 1 0.00017269501404371113
+max min 0.7612739 7.115703e-17
+output.shape (1013, 1622, 8)
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/O0135/Image_643.tif 1 0.0006840939167886972
+max min 0.9800743 1.2180762e-18
+output.shape (1013, 1622, 8)
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/O0135/Image_643.tif 1 3.0736111511942e-05
+max min 0.9890639 3.0613404e-18
+output.shape (1013, 1622, 8)
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/O0135/Image_643.tif 1 0.00022834812989458442
+max min 0.99911994 7.55802e-15
+output.shape (1013, 1622, 8)
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/O0135/Image_643.tif 1 0.34638145565986633
+max min 0.9951412 8.928171e-18
+output.shape (1013, 1622, 8)
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/O0135/Image_643.tif 1 0.0007211472257040441
+max min 0.8773842 8.855919e-18
+output.shape (1013, 1622, 8)
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/O0135/Image_643.tif 1 0.6514198780059814
+max min 1.0 0.0007469897
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/O0135/Image_639.tif
+naip_im_channels.shape (1013, 1622, 36)
+lllllllllllllllllllllll (36, 1013, 1622)
+ori_img.shape (1013, 1622, 3)
+ori path ../../../output/DOTS_output//ByMZ-ICCV_Train_with_dots_All_Data_newnet_5.7_backweight0.1_newBGR_aug_no_unknown_color-aug0.2_domain-shift_6-7ratio_10wsi-regi_wsi-no-trans-2-0.1-1_1_1_1_1_1_1_1_1_1-0.0005-1.0-stain7-mu1.0-sigma1.0-start_stain0-GPU7/pred_out_O0135_260/Image_639_ori.png
+(24, 200, 200, 8)
+model_output.shape old (24, 400, 400, 8)
+model_output.shape new (24, 400, 400, 8)
+output.shape (1013, 1622, 8)
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/O0135/Image_639.tif 1 0.00022518623154610395
+max min 0.9849582 1.453065e-17
+output.shape (1013, 1622, 8)
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/O0135/Image_639.tif 1 1.0763625141407829e-05
+max min 0.5743786 9.923423e-16
+output.shape (1013, 1622, 8)
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/O0135/Image_639.tif 1 0.00013820875028613955
+max min 0.9639664 2.5725658e-17
+output.shape (1013, 1622, 8)
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/O0135/Image_639.tif 1 6.528788071591407e-05
+max min 0.99532413 4.134786e-17
+output.shape (1013, 1622, 8)
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/O0135/Image_639.tif 1 3.0892053473507985e-05
+max min 0.9992714 1.17531564e-14
+output.shape (1013, 1622, 8)
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/O0135/Image_639.tif 1 1.5321294995374046e-05
+max min 0.9923966 4.9298277e-17
+output.shape (1013, 1622, 8)
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/O0135/Image_639.tif 1 5.0567312428029254e-05
+max min 0.87228787 7.2695074e-17
+output.shape (1013, 1622, 8)
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/O0135/Image_639.tif 1 0.9994637966156006
+max min 1.0 0.00060406287
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/O0135/Image_634.tif
+naip_im_channels.shape (1013, 1622, 36)
+lllllllllllllllllllllll (36, 1013, 1622)
+ori_img.shape (1013, 1622, 3)
+ori path ../../../output/DOTS_output//ByMZ-ICCV_Train_with_dots_All_Data_newnet_5.7_backweight0.1_newBGR_aug_no_unknown_color-aug0.2_domain-shift_6-7ratio_10wsi-regi_wsi-no-trans-2-0.1-1_1_1_1_1_1_1_1_1_1-0.0005-1.0-stain7-mu1.0-sigma1.0-start_stain0-GPU7/pred_out_O0135_260/Image_634_ori.png
+(24, 200, 200, 8)
+model_output.shape old (24, 400, 400, 8)
+model_output.shape new (24, 400, 400, 8)
+output.shape (1013, 1622, 8)
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/O0135/Image_634.tif 1 0.0006002217414788902
+max min 0.9905988 1.7755505e-16
+output.shape (1013, 1622, 8)
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/O0135/Image_634.tif 1 9.451585356146097e-05
+max min 0.5979087 6.953605e-15
+output.shape (1013, 1622, 8)
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/O0135/Image_634.tif 1 0.00042925853631459177
+max min 0.8868165 6.307446e-17
+output.shape (1013, 1622, 8)
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/O0135/Image_634.tif 1 0.0024488752242177725
+max min 0.9839371 1.2224485e-16
+output.shape (1013, 1622, 8)
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/O0135/Image_634.tif 1 0.00017284312343690544
+max min 0.99822724 8.4763285e-14
+output.shape (1013, 1622, 8)
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/O0135/Image_634.tif 1 0.00030976178823038936
+max min 0.9957396 7.746957e-17
+output.shape (1013, 1622, 8)
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/O0135/Image_634.tif 1 0.053707223385572433
+max min 0.91717154 1.2854068e-15
+output.shape (1013, 1622, 8)
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/O0135/Image_634.tif 1 0.942237377166748
+max min 1.0 0.0011784998
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/O0135/Image_637.tif
+naip_im_channels.shape (1013, 1622, 36)
+lllllllllllllllllllllll (36, 1013, 1622)
+ori_img.shape (1013, 1622, 3)
+ori path ../../../output/DOTS_output//ByMZ-ICCV_Train_with_dots_All_Data_newnet_5.7_backweight0.1_newBGR_aug_no_unknown_color-aug0.2_domain-shift_6-7ratio_10wsi-regi_wsi-no-trans-2-0.1-1_1_1_1_1_1_1_1_1_1-0.0005-1.0-stain7-mu1.0-sigma1.0-start_stain0-GPU7/pred_out_O0135_260/Image_637_ori.png
+(24, 200, 200, 8)
+model_output.shape old (24, 400, 400, 8)
+model_output.shape new (24, 400, 400, 8)
+output.shape (1013, 1622, 8)
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/O0135/Image_637.tif 1 9.29643792915158e-05
+max min 0.9815715 2.5016748e-17
+output.shape (1013, 1622, 8)
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/O0135/Image_637.tif 1 1.8041413568425924e-05
+max min 0.54196537 5.9943214e-16
+output.shape (1013, 1622, 8)
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/O0135/Image_637.tif 1 1.4475074749498162e-05
+max min 0.8507104 1.8448604e-16
+output.shape (1013, 1622, 8)
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/O0135/Image_637.tif 1 1.749025432218332e-05
+max min 0.96175665 6.2881624e-16
+output.shape (1013, 1622, 8)
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/O0135/Image_637.tif 1 0.00010722743900259957
+max min 0.93377835 1.6057885e-14
+output.shape (1013, 1622, 8)
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/O0135/Image_637.tif 1 0.0005380568909458816
+max min 0.9925669 1.1102713e-15
+output.shape (1013, 1622, 8)
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/O0135/Image_637.tif 1 2.5468187232036144e-05
+max min 0.89268005 1.0835285e-15
+output.shape (1013, 1622, 8)
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/O0135/Image_637.tif 1 0.9991862177848816
+max min 1.0 0.00441331
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/O0135/Image_636.tif
+naip_im_channels.shape (1013, 1622, 36)
+lllllllllllllllllllllll (36, 1013, 1622)
+ori_img.shape (1013, 1622, 3)
+ori path ../../../output/DOTS_output//ByMZ-ICCV_Train_with_dots_All_Data_newnet_5.7_backweight0.1_newBGR_aug_no_unknown_color-aug0.2_domain-shift_6-7ratio_10wsi-regi_wsi-no-trans-2-0.1-1_1_1_1_1_1_1_1_1_1-0.0005-1.0-stain7-mu1.0-sigma1.0-start_stain0-GPU7/pred_out_O0135_260/Image_636_ori.png
+(24, 200, 200, 8)
+model_output.shape old (24, 400, 400, 8)
+model_output.shape new (24, 400, 400, 8)
+output.shape (1013, 1622, 8)
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/O0135/Image_636.tif 1 0.0007193060591816902
+max min 0.983432 1.0708315e-21
+output.shape (1013, 1622, 8)
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/O0135/Image_636.tif 1 0.0001337112335022539
+max min 0.5674315 2.5924062e-20
+output.shape (1013, 1622, 8)
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/O0135/Image_636.tif 1 0.0011306520318612456
+max min 0.75880545 8.3766836e-23
+output.shape (1013, 1622, 8)
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/O0135/Image_636.tif 1 0.0016644991701468825
+max min 0.9804729 1.1188077e-22
+output.shape (1013, 1622, 8)
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/O0135/Image_636.tif 1 0.0001990850578295067
+max min 0.85355175 1.2571955e-18
+output.shape (1013, 1622, 8)
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/O0135/Image_636.tif 1 0.20152930915355682
+max min 0.9942726 4.178397e-21
+output.shape (1013, 1622, 8)
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/O0135/Image_636.tif 1 0.28644728660583496
+max min 0.9381585 1.7341826e-22
+output.shape (1013, 1622, 8)
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/O0135/Image_636.tif 1 0.5081761479377747
+max min 1.0 0.0043790117
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/O0135/Image_635.tif
+naip_im_channels.shape (1013, 1622, 36)
+lllllllllllllllllllllll (36, 1013, 1622)
+ori_img.shape (1013, 1622, 3)
+ori path ../../../output/DOTS_output//ByMZ-ICCV_Train_with_dots_All_Data_newnet_5.7_backweight0.1_newBGR_aug_no_unknown_color-aug0.2_domain-shift_6-7ratio_10wsi-regi_wsi-no-trans-2-0.1-1_1_1_1_1_1_1_1_1_1-0.0005-1.0-stain7-mu1.0-sigma1.0-start_stain0-GPU7/pred_out_O0135_260/Image_635_ori.png
+(24, 200, 200, 8)
+model_output.shape old (24, 400, 400, 8)
+model_output.shape new (24, 400, 400, 8)
+output.shape (1013, 1622, 8)
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/O0135/Image_635.tif 1 0.0012239825446158648
+max min 0.98353195 6.3005764e-13
+output.shape (1013, 1622, 8)
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/O0135/Image_635.tif 1 0.00022922437347006053
+max min 0.650381 1.6548417e-11
+output.shape (1013, 1622, 8)
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/O0135/Image_635.tif 1 0.004625516477972269
+max min 0.8244707 7.382783e-12
+output.shape (1013, 1622, 8)
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/O0135/Image_635.tif 1 0.00013139056682121009
+max min 0.993196 1.620347e-11
+output.shape (1013, 1622, 8)
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/O0135/Image_635.tif 1 0.00015239599451888353
+max min 0.9996058 2.0664116e-11
+output.shape (1013, 1622, 8)
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/O0135/Image_635.tif 1 0.12132701277732849
+max min 0.9968969 2.1066488e-12
+output.shape (1013, 1622, 8)
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/O0135/Image_635.tif 1 0.002459293929859996
+max min 0.8469381 8.962211e-11
+output.shape (1013, 1622, 8)
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/O0135/Image_635.tif 1 0.869851291179657
+max min 1.0 0.00034383585
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/O0135/Image_633.tif
+naip_im_channels.shape (1013, 1622, 36)
+lllllllllllllllllllllll (36, 1013, 1622)
+ori_img.shape (1013, 1622, 3)
+ori path ../../../output/DOTS_output//ByMZ-ICCV_Train_with_dots_All_Data_newnet_5.7_backweight0.1_newBGR_aug_no_unknown_color-aug0.2_domain-shift_6-7ratio_10wsi-regi_wsi-no-trans-2-0.1-1_1_1_1_1_1_1_1_1_1-0.0005-1.0-stain7-mu1.0-sigma1.0-start_stain0-GPU7/pred_out_O0135_260/Image_633_ori.png
+(24, 200, 200, 8)
+model_output.shape old (24, 400, 400, 8)
+model_output.shape new (24, 400, 400, 8)
+output.shape (1013, 1622, 8)
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/O0135/Image_633.tif 1 0.0009171140845865011
+max min 0.9847399 3.6108367e-29
+output.shape (1013, 1622, 8)
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/O0135/Image_633.tif 1 0.0003083909978158772
+max min 0.8512072 4.747492e-27
+output.shape (1013, 1622, 8)
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/O0135/Image_633.tif 1 0.0006171815912239254
+max min 0.9705461 2.5528658e-30
+output.shape (1013, 1622, 8)
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/O0135/Image_633.tif 1 6.4226878748741e-05
+max min 0.9918654 4.6756174e-30
+output.shape (1013, 1622, 8)
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/O0135/Image_633.tif 1 0.0006030756630934775
+max min 0.99909943 8.658107e-25
+output.shape (1013, 1622, 8)
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/O0135/Image_633.tif 1 0.5580182671546936
+max min 0.99634516 1.239065e-28
+output.shape (1013, 1622, 8)
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/O0135/Image_633.tif 1 0.006435388699173927
+max min 0.9016141 2.5534497e-29
+output.shape (1013, 1622, 8)
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/O0135/Image_633.tif 1 0.43303635716438293
+max min 1.0 0.0007499975
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/O0135/Image_638.tif
+naip_im_channels.shape (1013, 1622, 36)
+lllllllllllllllllllllll (36, 1013, 1622)
+ori_img.shape (1013, 1622, 3)
+ori path ../../../output/DOTS_output//ByMZ-ICCV_Train_with_dots_All_Data_newnet_5.7_backweight0.1_newBGR_aug_no_unknown_color-aug0.2_domain-shift_6-7ratio_10wsi-regi_wsi-no-trans-2-0.1-1_1_1_1_1_1_1_1_1_1-0.0005-1.0-stain7-mu1.0-sigma1.0-start_stain0-GPU7/pred_out_O0135_260/Image_638_ori.png
+(24, 200, 200, 8)
+model_output.shape old (24, 400, 400, 8)
+model_output.shape new (24, 400, 400, 8)
+output.shape (1013, 1622, 8)
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/O0135/Image_638.tif 1 0.005351278465241194
+max min 0.98309666 1.7966996e-15
+output.shape (1013, 1622, 8)
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/O0135/Image_638.tif 1 0.008233305998146534
+max min 0.58447677 2.3959626e-14
+output.shape (1013, 1622, 8)
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/O0135/Image_638.tif 1 0.000451043393695727
+max min 0.976691 1.320768e-14
+output.shape (1013, 1622, 8)
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/O0135/Image_638.tif 1 0.0001522042730357498
+max min 0.9954784 7.2099775e-15
+output.shape (1013, 1622, 8)
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/O0135/Image_638.tif 1 0.0030011062044650316
+max min 0.9995371 8.902951e-14
+output.shape (1013, 1622, 8)
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/O0135/Image_638.tif 1 0.31985557079315186
+max min 0.993365 1.1055996e-14
+output.shape (1013, 1622, 8)
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/O0135/Image_638.tif 1 0.0036147695500403643
+max min 0.7955738 3.5662424e-12
+output.shape (1013, 1622, 8)
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/O0135/Image_638.tif 1 0.6593406796455383
+max min 1.0 0.00040670502
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/O0135/Image_642.tif
+naip_im_channels.shape (1013, 1622, 36)
+lllllllllllllllllllllll (36, 1013, 1622)
+ori_img.shape (1013, 1622, 3)
+ori path ../../../output/DOTS_output//ByMZ-ICCV_Train_with_dots_All_Data_newnet_5.7_backweight0.1_newBGR_aug_no_unknown_color-aug0.2_domain-shift_6-7ratio_10wsi-regi_wsi-no-trans-2-0.1-1_1_1_1_1_1_1_1_1_1-0.0005-1.0-stain7-mu1.0-sigma1.0-start_stain0-GPU7/pred_out_O0135_260/Image_642_ori.png
+(24, 200, 200, 8)
+model_output.shape old (24, 400, 400, 8)
+model_output.shape new (24, 400, 400, 8)
+output.shape (1013, 1622, 8)
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/O0135/Image_642.tif 1 0.0005596319679170847
+max min 0.96699464 5.0501147e-16
+output.shape (1013, 1622, 8)
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/O0135/Image_642.tif 1 3.503801781334914e-05
+max min 0.5383419 1.2481429e-14
+output.shape (1013, 1622, 8)
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/O0135/Image_642.tif 1 0.00011423121759435162
+max min 0.31000635 5.0571636e-17
+output.shape (1013, 1622, 8)
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/O0135/Image_642.tif 1 4.647887544706464e-05
+max min 0.63334954 1.6732334e-16
+output.shape (1013, 1622, 8)
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/O0135/Image_642.tif 1 6.621693319175392e-05
+max min 0.98399174 1.1393149e-13
+output.shape (1013, 1622, 8)
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/O0135/Image_642.tif 1 0.00011585925676627085
+max min 0.99415904 3.4441147e-17
+output.shape (1013, 1622, 8)
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/O0135/Image_642.tif 1 0.010867595672607422
+max min 0.92873114 9.592283e-15
+output.shape (1013, 1622, 8)
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/O0135/Image_642.tif 1 0.9881949424743652
+max min 1.0 0.0028781097
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/O0135/Image_632.tif
+naip_im_channels.shape (1013, 1622, 36)
+lllllllllllllllllllllll (36, 1013, 1622)
+ori_img.shape (1013, 1622, 3)
+ori path ../../../output/DOTS_output//ByMZ-ICCV_Train_with_dots_All_Data_newnet_5.7_backweight0.1_newBGR_aug_no_unknown_color-aug0.2_domain-shift_6-7ratio_10wsi-regi_wsi-no-trans-2-0.1-1_1_1_1_1_1_1_1_1_1-0.0005-1.0-stain7-mu1.0-sigma1.0-start_stain0-GPU7/pred_out_O0135_260/Image_632_ori.png
+(24, 200, 200, 8)
+model_output.shape old (24, 400, 400, 8)
+model_output.shape new (24, 400, 400, 8)
+output.shape (1013, 1622, 8)
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/O0135/Image_632.tif 1 0.00013182542170397937
+max min 0.98514855 5.5027324e-28
+output.shape (1013, 1622, 8)
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/O0135/Image_632.tif 1 0.0003060133312828839
+max min 0.6495648 1.5666695e-25
+output.shape (1013, 1622, 8)
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/O0135/Image_632.tif 1 0.00010994201147696003
+max min 0.9738501 2.7676761e-27
+output.shape (1013, 1622, 8)
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/O0135/Image_632.tif 1 0.0002185761259170249
+max min 0.98688567 2.5771285e-27
+output.shape (1013, 1622, 8)
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/O0135/Image_632.tif 1 0.000218141358345747
+max min 0.99907 8.0836344e-24
+output.shape (1013, 1622, 8)
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/O0135/Image_632.tif 1 7.145880226744339e-05
+max min 0.9939488 3.8623875e-26
+output.shape (1013, 1622, 8)
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/O0135/Image_632.tif 1 0.0003281011013314128
+max min 0.92541087 2.689172e-25
+output.shape (1013, 1622, 8)
+/scratch/KurcGroup/mazhao/ICCV/data_multiplex/dots_dan/O0135/Image_632.tif 1 0.9986159801483154
+max min 1.0 0.00084539334

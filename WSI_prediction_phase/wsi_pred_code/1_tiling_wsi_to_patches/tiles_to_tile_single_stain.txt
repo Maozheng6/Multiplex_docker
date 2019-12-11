@@ -1,0 +1,13 @@
+N3908_CD8_PURPLE_8-multires.tif
+N3908_CD16_BLACK_10-multires.tif
+N3908_K17_BROWN_9-multires.tif
+N3908_CD20_RED_6-multires.tif
+N3908_CD3_YELLOW_5-multires.tif
+N3908_CD4_BLUE_7-multires.tif
+O6218_CD3_YELLOW_7-multires.tif
+O6218_CD16_BLACK_10-multires.tif
+O6218_CD20_RED_5-multires.tif
+O6218_CD4_BLUE_6-multires.tif
+O6218_CD8_PURPLE_8-multires.tif
+O6218_K17_BROWN_9-multires.tif
+

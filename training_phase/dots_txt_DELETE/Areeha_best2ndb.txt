@@ -1,0 +1,340 @@
+results /mnt/blobfuse/train-output/ByMZ/2.18/ByMZ-Multi_6layer_99_1_withBN_yb99.5_yerode1_cyan.75_mustdv3-2-0.5-1_1_1_1_1_1_1_1_1_1-0.0005-0.9995-stain5-mu1.0-sigma1.0-start_stain0-GPU0/pred_out
+/mnt/blobfuse/train-output/ByMZ/data_dots_labels_for_multiplex/2nd_batch/images/Areeha/2280_cd16h.png
+color Cyan
+color_idx {'Yellow': 2, 'Cyan': 3, 'Black': 0, 'Red': 1, 'Purple': 4}
+color_idx[color] 3
+str(color_idx[color]) 3
+color Black
+color_idx {'Yellow': 2, 'Cyan': 3, 'Black': 0, 'Red': 1, 'Purple': 4}
+color_idx[color] 0
+str(color_idx[color]) 0
+color Purple
+color_idx {'Yellow': 2, 'Cyan': 3, 'Black': 0, 'Red': 1, 'Purple': 4}
+color_idx[color] 4
+str(color_idx[color]) 4
+{'Yellow': [], 'Cyan': [[0, 0]], 'Black': [[18, 47]], 'Red': [], 'Purple': [[3, 5]]}
+/mnt/blobfuse/train-output/ByMZ/data_dots_labels_for_multiplex/2nd_batch/images/Areeha/2271_cd16h_cd4h_cd8h.png
+color Cyan
+color_idx {'Yellow': 2, 'Cyan': 3, 'Black': 0, 'Red': 1, 'Purple': 4}
+color_idx[color] 3
+str(color_idx[color]) 3
+color Black
+color_idx {'Yellow': 2, 'Cyan': 3, 'Black': 0, 'Red': 1, 'Purple': 4}
+color_idx[color] 0
+str(color_idx[color]) 0
+color Purple
+color_idx {'Yellow': 2, 'Cyan': 3, 'Black': 0, 'Red': 1, 'Purple': 4}
+color_idx[color] 4
+str(color_idx[color]) 4
+{'Yellow': [], 'Cyan': [[0, 0], [3, 7]], 'Black': [[18, 47], [16, 33]], 'Red': [], 'Purple': [[3, 5], [9, 12]]}
+/mnt/blobfuse/train-output/ByMZ/data_dots_labels_for_multiplex/2nd_batch/images/Areeha/2893_cd20h_cd3h_cd8h.png
+color Cyan
+color_idx {'Yellow': 2, 'Cyan': 3, 'Black': 0, 'Red': 1, 'Purple': 4}
+color_idx[color] 3
+str(color_idx[color]) 3
+color Red
+color_idx {'Yellow': 2, 'Cyan': 3, 'Black': 0, 'Red': 1, 'Purple': 4}
+color_idx[color] 1
+str(color_idx[color]) 1
+color Purple
+color_idx {'Yellow': 2, 'Cyan': 3, 'Black': 0, 'Red': 1, 'Purple': 4}
+color_idx[color] 4
+str(color_idx[color]) 4
+{'Yellow': [], 'Cyan': [[0, 0], [3, 7], [0, 0]], 'Black': [[18, 47], [16, 33]], 'Red': [[66, 97]], 'Purple': [[3, 5], [9, 12], [9, 55]]}
+/mnt/blobfuse/train-output/ByMZ/data_dots_labels_for_multiplex/2nd_batch/images/Areeha/2415_cd16h_cd3h_cd8h.png
+color Cyan
+color_idx {'Yellow': 2, 'Cyan': 3, 'Black': 0, 'Red': 1, 'Purple': 4}
+color_idx[color] 3
+str(color_idx[color]) 3
+color Black
+color_idx {'Yellow': 2, 'Cyan': 3, 'Black': 0, 'Red': 1, 'Purple': 4}
+color_idx[color] 0
+str(color_idx[color]) 0
+color Purple
+color_idx {'Yellow': 2, 'Cyan': 3, 'Black': 0, 'Red': 1, 'Purple': 4}
+color_idx[color] 4
+str(color_idx[color]) 4
+{'Yellow': [], 'Cyan': [[0, 0], [3, 7], [0, 0], [0, 0]], 'Black': [[18, 47], [16, 33], [22, 50]], 'Red': [[66, 97]], 'Purple': [[3, 5], [9, 12], [9, 55], [14, 17]]}
+/mnt/blobfuse/train-output/ByMZ/data_dots_labels_for_multiplex/2nd_batch/images/Areeha/14_cd16h_cd4h.png
+color Yellow
+color_idx {'Yellow': 2, 'Cyan': 3, 'Black': 0, 'Red': 1, 'Purple': 4}
+color_idx[color] 2
+str(color_idx[color]) 2
+color Cyan
+color_idx {'Yellow': 2, 'Cyan': 3, 'Black': 0, 'Red': 1, 'Purple': 4}
+color_idx[color] 3
+str(color_idx[color]) 3
+color Black
+color_idx {'Yellow': 2, 'Cyan': 3, 'Black': 0, 'Red': 1, 'Purple': 4}
+color_idx[color] 0
+str(color_idx[color]) 0
+color Purple
+color_idx {'Yellow': 2, 'Cyan': 3, 'Black': 0, 'Red': 1, 'Purple': 4}
+color_idx[color] 4
+str(color_idx[color]) 4
+{'Yellow': [[1, 2]], 'Cyan': [[0, 0], [3, 7], [0, 0], [0, 0], [4, 5]], 'Black': [[18, 47], [16, 33], [22, 50], [11, 29]], 'Red': [[66, 97]], 'Purple': [[3, 5], [9, 12], [9, 55], [14, 17], [1, 3]]}
+/mnt/blobfuse/train-output/ByMZ/data_dots_labels_for_multiplex/2nd_batch/images/Areeha/1401_cd16h_cd3h.png
+color Cyan
+color_idx {'Yellow': 2, 'Cyan': 3, 'Black': 0, 'Red': 1, 'Purple': 4}
+color_idx[color] 3
+str(color_idx[color]) 3
+color Black
+color_idx {'Yellow': 2, 'Cyan': 3, 'Black': 0, 'Red': 1, 'Purple': 4}
+color_idx[color] 0
+str(color_idx[color]) 0
+color Red
+color_idx {'Yellow': 2, 'Cyan': 3, 'Black': 0, 'Red': 1, 'Purple': 4}
+color_idx[color] 1
+str(color_idx[color]) 1
+color Purple
+color_idx {'Yellow': 2, 'Cyan': 3, 'Black': 0, 'Red': 1, 'Purple': 4}
+color_idx[color] 4
+str(color_idx[color]) 4
+{'Yellow': [[1, 2]], 'Cyan': [[0, 0], [3, 7], [0, 0], [0, 0], [4, 5], [1, 1]], 'Black': [[18, 47], [16, 33], [22, 50], [11, 29], [15, 24]], 'Red': [[66, 97], [0, 0]], 'Purple': [[3, 5], [9, 12], [9, 55], [14, 17], [1, 3], [1, 3]]}
+/mnt/blobfuse/train-output/ByMZ/data_dots_labels_for_multiplex/2nd_batch/images/Areeha/2514_cd20h_cd3h.png
+color Cyan
+color_idx {'Yellow': 2, 'Cyan': 3, 'Black': 0, 'Red': 1, 'Purple': 4}
+color_idx[color] 3
+str(color_idx[color]) 3
+color Black
+color_idx {'Yellow': 2, 'Cyan': 3, 'Black': 0, 'Red': 1, 'Purple': 4}
+color_idx[color] 0
+str(color_idx[color]) 0
+color Red
+color_idx {'Yellow': 2, 'Cyan': 3, 'Black': 0, 'Red': 1, 'Purple': 4}
+color_idx[color] 1
+str(color_idx[color]) 1
+color Purple
+color_idx {'Yellow': 2, 'Cyan': 3, 'Black': 0, 'Red': 1, 'Purple': 4}
+color_idx[color] 4
+str(color_idx[color]) 4
+{'Yellow': [[1, 2]], 'Cyan': [[0, 0], [3, 7], [0, 0], [0, 0], [4, 5], [1, 1], [0, 0]], 'Black': [[18, 47], [16, 33], [22, 50], [11, 29], [15, 24], [2, 3]], 'Red': [[66, 97], [0, 0], [3, 7]], 'Purple': [[3, 5], [9, 12], [9, 55], [14, 17], [1, 3], [1, 3], [4, 7]]}
+/mnt/blobfuse/train-output/ByMZ/data_dots_labels_for_multiplex/2nd_batch/images/Areeha/2875_cd3h_cd8h.png
+color Cyan
+color_idx {'Yellow': 2, 'Cyan': 3, 'Black': 0, 'Red': 1, 'Purple': 4}
+color_idx[color] 3
+str(color_idx[color]) 3
+color Red
+color_idx {'Yellow': 2, 'Cyan': 3, 'Black': 0, 'Red': 1, 'Purple': 4}
+color_idx[color] 1
+str(color_idx[color]) 1
+color Purple
+color_idx {'Yellow': 2, 'Cyan': 3, 'Black': 0, 'Red': 1, 'Purple': 4}
+color_idx[color] 4
+str(color_idx[color]) 4
+{'Yellow': [[1, 2]], 'Cyan': [[0, 0], [3, 7], [0, 0], [0, 0], [4, 5], [1, 1], [0, 0], [0, 0]], 'Black': [[18, 47], [16, 33], [22, 50], [11, 29], [15, 24], [2, 3]], 'Red': [[66, 97], [0, 0], [3, 7], [2, 2]], 'Purple': [[3, 5], [9, 12], [9, 55], [14, 17], [1, 3], [1, 3], [4, 7], [4, 6]]}
+/mnt/blobfuse/train-output/ByMZ/data_dots_labels_for_multiplex/2nd_batch/images/Areeha/2460_cd20h_cd3h.png
+color Yellow
+color_idx {'Yellow': 2, 'Cyan': 3, 'Black': 0, 'Red': 1, 'Purple': 4}
+color_idx[color] 2
+str(color_idx[color]) 2
+color Cyan
+color_idx {'Yellow': 2, 'Cyan': 3, 'Black': 0, 'Red': 1, 'Purple': 4}
+color_idx[color] 3
+str(color_idx[color]) 3
+color Black
+color_idx {'Yellow': 2, 'Cyan': 3, 'Black': 0, 'Red': 1, 'Purple': 4}
+color_idx[color] 0
+str(color_idx[color]) 0
+color Red
+color_idx {'Yellow': 2, 'Cyan': 3, 'Black': 0, 'Red': 1, 'Purple': 4}
+color_idx[color] 1
+str(color_idx[color]) 1
+color Purple
+color_idx {'Yellow': 2, 'Cyan': 3, 'Black': 0, 'Red': 1, 'Purple': 4}
+color_idx[color] 4
+str(color_idx[color]) 4
+{'Yellow': [[1, 2], [1, 14]], 'Cyan': [[0, 0], [3, 7], [0, 0], [0, 0], [4, 5], [1, 1], [0, 0], [0, 0], [1, 1]], 'Black': [[18, 47], [16, 33], [22, 50], [11, 29], [15, 24], [2, 3], [11, 17]], 'Red': [[66, 97], [0, 0], [3, 7], [2, 2], [17, 40]], 'Purple': [[3, 5], [9, 12], [9, 55], [14, 17], [1, 3], [1, 3], [4, 7], [4, 6], [3, 14]]}
+/mnt/blobfuse/train-output/ByMZ/data_dots_labels_for_multiplex/2nd_batch/images/Areeha/1009_cd20h_cd3h_cd8h.png
+color Cyan
+color_idx {'Yellow': 2, 'Cyan': 3, 'Black': 0, 'Red': 1, 'Purple': 4}
+color_idx[color] 3
+str(color_idx[color]) 3
+color Red
+color_idx {'Yellow': 2, 'Cyan': 3, 'Black': 0, 'Red': 1, 'Purple': 4}
+color_idx[color] 1
+str(color_idx[color]) 1
+color Purple
+color_idx {'Yellow': 2, 'Cyan': 3, 'Black': 0, 'Red': 1, 'Purple': 4}
+color_idx[color] 4
+str(color_idx[color]) 4
+{'Yellow': [[1, 2], [1, 14]], 'Cyan': [[0, 0], [3, 7], [0, 0], [0, 0], [4, 5], [1, 1], [0, 0], [0, 0], [1, 1], [1, 2]], 'Black': [[18, 47], [16, 33], [22, 50], [11, 29], [15, 24], [2, 3], [11, 17]], 'Red': [[66, 97], [0, 0], [3, 7], [2, 2], [17, 40], [5, 12]], 'Purple': [[3, 5], [9, 12], [9, 55], [14, 17], [1, 3], [1, 3], [4, 7], [4, 6], [3, 14], [7, 15]]}
+/mnt/blobfuse/train-output/ByMZ/data_dots_labels_for_multiplex/2nd_batch/images/Areeha/237_cd16h_cd3h_cd8h.png
+color Cyan
+color_idx {'Yellow': 2, 'Cyan': 3, 'Black': 0, 'Red': 1, 'Purple': 4}
+color_idx[color] 3
+str(color_idx[color]) 3
+color Black
+color_idx {'Yellow': 2, 'Cyan': 3, 'Black': 0, 'Red': 1, 'Purple': 4}
+color_idx[color] 0
+str(color_idx[color]) 0
+color Purple
+color_idx {'Yellow': 2, 'Cyan': 3, 'Black': 0, 'Red': 1, 'Purple': 4}
+color_idx[color] 4
+str(color_idx[color]) 4
+{'Yellow': [[1, 2], [1, 14]], 'Cyan': [[0, 0], [3, 7], [0, 0], [0, 0], [4, 5], [1, 1], [0, 0], [0, 0], [1, 1], [1, 2], [1, 1]], 'Black': [[18, 47], [16, 33], [22, 50], [11, 29], [15, 24], [2, 3], [11, 17], [7, 21]], 'Red': [[66, 97], [0, 0], [3, 7], [2, 2], [17, 40], [5, 12]], 'Purple': [[3, 5], [9, 12], [9, 55], [14, 17], [1, 3], [1, 3], [4, 7], [4, 6], [3, 14], [7, 15], [5, 7]]}
+/mnt/blobfuse/train-output/ByMZ/data_dots_labels_for_multiplex/2nd_batch/images/Areeha/1054_cd20h_cd3h_cd8h.png
+color Cyan
+color_idx {'Yellow': 2, 'Cyan': 3, 'Black': 0, 'Red': 1, 'Purple': 4}
+color_idx[color] 3
+str(color_idx[color]) 3
+color Black
+color_idx {'Yellow': 2, 'Cyan': 3, 'Black': 0, 'Red': 1, 'Purple': 4}
+color_idx[color] 0
+str(color_idx[color]) 0
+color Purple
+color_idx {'Yellow': 2, 'Cyan': 3, 'Black': 0, 'Red': 1, 'Purple': 4}
+color_idx[color] 4
+str(color_idx[color]) 4
+{'Yellow': [[1, 2], [1, 14]], 'Cyan': [[0, 0], [3, 7], [0, 0], [0, 0], [4, 5], [1, 1], [0, 0], [0, 0], [1, 1], [1, 2], [1, 1], [0, 1]], 'Black': [[18, 47], [16, 33], [22, 50], [11, 29], [15, 24], [2, 3], [11, 17], [7, 21], [2, 5]], 'Red': [[66, 97], [0, 0], [3, 7], [2, 2], [17, 40], [5, 12]], 'Purple': [[3, 5], [9, 12], [9, 55], [14, 17], [1, 3], [1, 3], [4, 7], [4, 6], [3, 14], [7, 15], [5, 7], [17, 23]]}
+/mnt/blobfuse/train-output/ByMZ/data_dots_labels_for_multiplex/2nd_batch/images/Areeha/2127_cd8h.png
+color Cyan
+color_idx {'Yellow': 2, 'Cyan': 3, 'Black': 0, 'Red': 1, 'Purple': 4}
+color_idx[color] 3
+str(color_idx[color]) 3
+color Purple
+color_idx {'Yellow': 2, 'Cyan': 3, 'Black': 0, 'Red': 1, 'Purple': 4}
+color_idx[color] 4
+str(color_idx[color]) 4
+{'Yellow': [[1, 2], [1, 14]], 'Cyan': [[0, 0], [3, 7], [0, 0], [0, 0], [4, 5], [1, 1], [0, 0], [0, 0], [1, 1], [1, 2], [1, 1], [0, 1], [0, 1]], 'Black': [[18, 47], [16, 33], [22, 50], [11, 29], [15, 24], [2, 3], [11, 17], [7, 21], [2, 5]], 'Red': [[66, 97], [0, 0], [3, 7], [2, 2], [17, 40], [5, 12]], 'Purple': [[3, 5], [9, 12], [9, 55], [14, 17], [1, 3], [1, 3], [4, 7], [4, 6], [3, 14], [7, 15], [5, 7], [17, 23], [12, 15]]}
+/mnt/blobfuse/train-output/ByMZ/data_dots_labels_for_multiplex/2nd_batch/images/Areeha/1750_cd3h_cd4h_cd8h.png
+color Cyan
+color_idx {'Yellow': 2, 'Cyan': 3, 'Black': 0, 'Red': 1, 'Purple': 4}
+color_idx[color] 3
+str(color_idx[color]) 3
+color Black
+color_idx {'Yellow': 2, 'Cyan': 3, 'Black': 0, 'Red': 1, 'Purple': 4}
+color_idx[color] 0
+str(color_idx[color]) 0
+color Purple
+color_idx {'Yellow': 2, 'Cyan': 3, 'Black': 0, 'Red': 1, 'Purple': 4}
+color_idx[color] 4
+str(color_idx[color]) 4
+{'Yellow': [[1, 2], [1, 14]], 'Cyan': [[0, 0], [3, 7], [0, 0], [0, 0], [4, 5], [1, 1], [0, 0], [0, 0], [1, 1], [1, 2], [1, 1], [0, 1], [0, 1], [2, 2]], 'Black': [[18, 47], [16, 33], [22, 50], [11, 29], [15, 24], [2, 3], [11, 17], [7, 21], [2, 5], [7, 10]], 'Red': [[66, 97], [0, 0], [3, 7], [2, 2], [17, 40], [5, 12]], 'Purple': [[3, 5], [9, 12], [9, 55], [14, 17], [1, 3], [1, 3], [4, 7], [4, 6], [3, 14], [7, 15], [5, 7], [17, 23], [12, 15], [14, 17]]}
+/mnt/blobfuse/train-output/ByMZ/data_dots_labels_for_multiplex/2nd_batch/images/Areeha/3236_cd3h_cd4h.png
+color Yellow
+color_idx {'Yellow': 2, 'Cyan': 3, 'Black': 0, 'Red': 1, 'Purple': 4}
+color_idx[color] 2
+str(color_idx[color]) 2
+color Cyan
+color_idx {'Yellow': 2, 'Cyan': 3, 'Black': 0, 'Red': 1, 'Purple': 4}
+color_idx[color] 3
+str(color_idx[color]) 3
+color Black
+color_idx {'Yellow': 2, 'Cyan': 3, 'Black': 0, 'Red': 1, 'Purple': 4}
+color_idx[color] 0
+str(color_idx[color]) 0
+color Red
+color_idx {'Yellow': 2, 'Cyan': 3, 'Black': 0, 'Red': 1, 'Purple': 4}
+color_idx[color] 1
+str(color_idx[color]) 1
+color Purple
+color_idx {'Yellow': 2, 'Cyan': 3, 'Black': 0, 'Red': 1, 'Purple': 4}
+color_idx[color] 4
+str(color_idx[color]) 4
+{'Yellow': [[1, 2], [1, 14], [1, 5]], 'Cyan': [[0, 0], [3, 7], [0, 0], [0, 0], [4, 5], [1, 1], [0, 0], [0, 0], [1, 1], [1, 2], [1, 1], [0, 1], [0, 1], [2, 2], [3, 7]], 'Black': [[18, 47], [16, 33], [22, 50], [11, 29], [15, 24], [2, 3], [11, 17], [7, 21], [2, 5], [7, 10], [11, 15]], 'Red': [[66, 97], [0, 0], [3, 7], [2, 2], [17, 40], [5, 12], [0, 0]], 'Purple': [[3, 5], [9, 12], [9, 55], [14, 17], [1, 3], [1, 3], [4, 7], [4, 6], [3, 14], [7, 15], [5, 7], [17, 23], [12, 15], [14, 17], [1, 5]]}
+/mnt/blobfuse/train-output/ByMZ/data_dots_labels_for_multiplex/2nd_batch/images/Areeha/2839_cd20h_cd3h.png
+color Cyan
+color_idx {'Yellow': 2, 'Cyan': 3, 'Black': 0, 'Red': 1, 'Purple': 4}
+color_idx[color] 3
+str(color_idx[color]) 3
+color Black
+color_idx {'Yellow': 2, 'Cyan': 3, 'Black': 0, 'Red': 1, 'Purple': 4}
+color_idx[color] 0
+str(color_idx[color]) 0
+color Red
+color_idx {'Yellow': 2, 'Cyan': 3, 'Black': 0, 'Red': 1, 'Purple': 4}
+color_idx[color] 1
+str(color_idx[color]) 1
+{'Yellow': [[1, 2], [1, 14], [1, 5]], 'Cyan': [[0, 0], [3, 7], [0, 0], [0, 0], [4, 5], [1, 1], [0, 0], [0, 0], [1, 1], [1, 2], [1, 1], [0, 1], [0, 1], [2, 2], [3, 7], [0, 1]], 'Black': [[18, 47], [16, 33], [22, 50], [11, 29], [15, 24], [2, 3], [11, 17], [7, 21], [2, 5], [7, 10], [11, 15], [3, 6]], 'Red': [[66, 97], [0, 0], [3, 7], [2, 2], [17, 40], [5, 12], [0, 0], [1, 5]], 'Purple': [[3, 5], [9, 12], [9, 55], [14, 17], [1, 3], [1, 3], [4, 7], [4, 6], [3, 14], [7, 15], [5, 7], [17, 23], [12, 15], [14, 17], [1, 5]]}
+/mnt/blobfuse/train-output/ByMZ/data_dots_labels_for_multiplex/2nd_batch/images/Areeha/2910_cd20h_cd3h_cd4h_cd8h.png
+color Cyan
+color_idx {'Yellow': 2, 'Cyan': 3, 'Black': 0, 'Red': 1, 'Purple': 4}
+color_idx[color] 3
+str(color_idx[color]) 3
+color Red
+color_idx {'Yellow': 2, 'Cyan': 3, 'Black': 0, 'Red': 1, 'Purple': 4}
+color_idx[color] 1
+str(color_idx[color]) 1
+color Purple
+color_idx {'Yellow': 2, 'Cyan': 3, 'Black': 0, 'Red': 1, 'Purple': 4}
+color_idx[color] 4
+str(color_idx[color]) 4
+{'Yellow': [[1, 2], [1, 14], [1, 5]], 'Cyan': [[0, 0], [3, 7], [0, 0], [0, 0], [4, 5], [1, 1], [0, 0], [0, 0], [1, 1], [1, 2], [1, 1], [0, 1], [0, 1], [2, 2], [3, 7], [0, 1], [3, 3]], 'Black': [[18, 47], [16, 33], [22, 50], [11, 29], [15, 24], [2, 3], [11, 17], [7, 21], [2, 5], [7, 10], [11, 15], [3, 6]], 'Red': [[66, 97], [0, 0], [3, 7], [2, 2], [17, 40], [5, 12], [0, 0], [1, 5], [5, 11]], 'Purple': [[3, 5], [9, 12], [9, 55], [14, 17], [1, 3], [1, 3], [4, 7], [4, 6], [3, 14], [7, 15], [5, 7], [17, 23], [12, 15], [14, 17], [1, 5], [18, 27]]}
+/mnt/blobfuse/train-output/ByMZ/data_dots_labels_for_multiplex/2nd_batch/images/Areeha/2929_cd20h_cd3h_cd4h_cd8h.png
+color Cyan
+color_idx {'Yellow': 2, 'Cyan': 3, 'Black': 0, 'Red': 1, 'Purple': 4}
+color_idx[color] 3
+str(color_idx[color]) 3
+color Red
+color_idx {'Yellow': 2, 'Cyan': 3, 'Black': 0, 'Red': 1, 'Purple': 4}
+color_idx[color] 1
+str(color_idx[color]) 1
+color Purple
+color_idx {'Yellow': 2, 'Cyan': 3, 'Black': 0, 'Red': 1, 'Purple': 4}
+color_idx[color] 4
+str(color_idx[color]) 4
+{'Yellow': [[1, 2], [1, 14], [1, 5]], 'Cyan': [[0, 0], [3, 7], [0, 0], [0, 0], [4, 5], [1, 1], [0, 0], [0, 0], [1, 1], [1, 2], [1, 1], [0, 1], [0, 1], [2, 2], [3, 7], [0, 1], [3, 3], [3, 4]], 'Black': [[18, 47], [16, 33], [22, 50], [11, 29], [15, 24], [2, 3], [11, 17], [7, 21], [2, 5], [7, 10], [11, 15], [3, 6]], 'Red': [[66, 97], [0, 0], [3, 7], [2, 2], [17, 40], [5, 12], [0, 0], [1, 5], [5, 11], [10, 22]], 'Purple': [[3, 5], [9, 12], [9, 55], [14, 17], [1, 3], [1, 3], [4, 7], [4, 6], [3, 14], [7, 15], [5, 7], [17, 23], [12, 15], [14, 17], [1, 5], [18, 27], [23, 28]]}
+/mnt/blobfuse/train-output/ByMZ/data_dots_labels_for_multiplex/2nd_batch/images/Areeha/2433_cd16h_cd20h_cd3h_cd8h.png
+color Cyan
+color_idx {'Yellow': 2, 'Cyan': 3, 'Black': 0, 'Red': 1, 'Purple': 4}
+color_idx[color] 3
+str(color_idx[color]) 3
+color Black
+color_idx {'Yellow': 2, 'Cyan': 3, 'Black': 0, 'Red': 1, 'Purple': 4}
+color_idx[color] 0
+str(color_idx[color]) 0
+color Red
+color_idx {'Yellow': 2, 'Cyan': 3, 'Black': 0, 'Red': 1, 'Purple': 4}
+color_idx[color] 1
+str(color_idx[color]) 1
+color Purple
+color_idx {'Yellow': 2, 'Cyan': 3, 'Black': 0, 'Red': 1, 'Purple': 4}
+color_idx[color] 4
+str(color_idx[color]) 4
+{'Yellow': [[1, 2], [1, 14], [1, 5]], 'Cyan': [[0, 0], [3, 7], [0, 0], [0, 0], [4, 5], [1, 1], [0, 0], [0, 0], [1, 1], [1, 2], [1, 1], [0, 1], [0, 1], [2, 2], [3, 7], [0, 1], [3, 3], [3, 4], [0, 1]], 'Black': [[18, 47], [16, 33], [22, 50], [11, 29], [15, 24], [2, 3], [11, 17], [7, 21], [2, 5], [7, 10], [11, 15], [3, 6], [20, 35]], 'Red': [[66, 97], [0, 0], [3, 7], [2, 2], [17, 40], [5, 12], [0, 0], [1, 5], [5, 11], [10, 22], [7, 14]], 'Purple': [[3, 5], [9, 12], [9, 55], [14, 17], [1, 3], [1, 3], [4, 7], [4, 6], [3, 14], [7, 15], [5, 7], [17, 23], [12, 15], [14, 17], [1, 5], [18, 27], [23, 28], [9, 11]]}
+/mnt/blobfuse/train-output/ByMZ/data_dots_labels_for_multiplex/2nd_batch/images/Areeha/841_cd16h_cd3h.png
+color Yellow
+color_idx {'Yellow': 2, 'Cyan': 3, 'Black': 0, 'Red': 1, 'Purple': 4}
+color_idx[color] 2
+str(color_idx[color]) 2
+color Cyan
+color_idx {'Yellow': 2, 'Cyan': 3, 'Black': 0, 'Red': 1, 'Purple': 4}
+color_idx[color] 3
+str(color_idx[color]) 3
+color Black
+color_idx {'Yellow': 2, 'Cyan': 3, 'Black': 0, 'Red': 1, 'Purple': 4}
+color_idx[color] 0
+str(color_idx[color]) 0
+color Purple
+color_idx {'Yellow': 2, 'Cyan': 3, 'Black': 0, 'Red': 1, 'Purple': 4}
+color_idx[color] 4
+str(color_idx[color]) 4
+{'Yellow': [[1, 2], [1, 14], [1, 5], [1, 18]], 'Cyan': [[0, 0], [3, 7], [0, 0], [0, 0], [4, 5], [1, 1], [0, 0], [0, 0], [1, 1], [1, 2], [1, 1], [0, 1], [0, 1], [2, 2], [3, 7], [0, 1], [3, 3], [3, 4], [0, 1], [2, 2]], 'Black': [[18, 47], [16, 33], [22, 50], [11, 29], [15, 24], [2, 3], [11, 17], [7, 21], [2, 5], [7, 10], [11, 15], [3, 6], [20, 35], [19, 41]], 'Red': [[66, 97], [0, 0], [3, 7], [2, 2], [17, 40], [5, 12], [0, 0], [1, 5], [5, 11], [10, 22], [7, 14]], 'Purple': [[3, 5], [9, 12], [9, 55], [14, 17], [1, 3], [1, 3], [4, 7], [4, 6], [3, 14], [7, 15], [5, 7], [17, 23], [12, 15], [14, 17], [1, 5], [18, 27], [23, 28], [9, 11], [7, 9]]}
+/mnt/blobfuse/train-output/ByMZ/data_dots_labels_for_multiplex/2nd_batch/images/Areeha/3254_cd3h_cd4h.png
+color Yellow
+color_idx {'Yellow': 2, 'Cyan': 3, 'Black': 0, 'Red': 1, 'Purple': 4}
+color_idx[color] 2
+str(color_idx[color]) 2
+color Cyan
+color_idx {'Yellow': 2, 'Cyan': 3, 'Black': 0, 'Red': 1, 'Purple': 4}
+color_idx[color] 3
+str(color_idx[color]) 3
+color Purple
+color_idx {'Yellow': 2, 'Cyan': 3, 'Black': 0, 'Red': 1, 'Purple': 4}
+color_idx[color] 4
+str(color_idx[color]) 4
+{'Yellow': [[1, 2], [1, 14], [1, 5], [1, 18], [2, 3]], 'Cyan': [[0, 0], [3, 7], [0, 0], [0, 0], [4, 5], [1, 1], [0, 0], [0, 0], [1, 1], [1, 2], [1, 1], [0, 1], [0, 1], [2, 2], [3, 7], [0, 1], [3, 3], [3, 4], [0, 1], [2, 2], [2, 2]], 'Black': [[18, 47], [16, 33], [22, 50], [11, 29], [15, 24], [2, 3], [11, 17], [7, 21], [2, 5], [7, 10], [11, 15], [3, 6], [20, 35], [19, 41]], 'Red': [[66, 97], [0, 0], [3, 7], [2, 2], [17, 40], [5, 12], [0, 0], [1, 5], [5, 11], [10, 22], [7, 14]], 'Purple': [[3, 5], [9, 12], [9, 55], [14, 17], [1, 3], [1, 3], [4, 7], [4, 6], [3, 14], [7, 15], [5, 7], [17, 23], [12, 15], [14, 17], [1, 5], [18, 27], [23, 28], [9, 11], [7, 9], [1, 1]]}
+/mnt/blobfuse/train-output/ByMZ/data_dots_labels_for_multiplex/2nd_batch/images/Areeha/1634_cd8h.png
+color Black
+color_idx {'Yellow': 2, 'Cyan': 3, 'Black': 0, 'Red': 1, 'Purple': 4}
+color_idx[color] 0
+str(color_idx[color]) 0
+color Purple
+color_idx {'Yellow': 2, 'Cyan': 3, 'Black': 0, 'Red': 1, 'Purple': 4}
+color_idx[color] 4
+str(color_idx[color]) 4
+{'Yellow': [[1, 2], [1, 14], [1, 5], [1, 18], [2, 3]], 'Cyan': [[0, 0], [3, 7], [0, 0], [0, 0], [4, 5], [1, 1], [0, 0], [0, 0], [1, 1], [1, 2], [1, 1], [0, 1], [0, 1], [2, 2], [3, 7], [0, 1], [3, 3], [3, 4], [0, 1], [2, 2], [2, 2]], 'Black': [[18, 47], [16, 33], [22, 50], [11, 29], [15, 24], [2, 3], [11, 17], [7, 21], [2, 5], [7, 10], [11, 15], [3, 6], [20, 35], [19, 41], [12, 17]], 'Red': [[66, 97], [0, 0], [3, 7], [2, 2], [17, 40], [5, 12], [0, 0], [1, 5], [5, 11], [10, 22], [7, 14]], 'Purple': [[3, 5], [9, 12], [9, 55], [14, 17], [1, 3], [1, 3], [4, 7], [4, 6], [3, 14], [7, 15], [5, 7], [17, 23], [12, 15], [14, 17], [1, 5], [18, 27], [23, 28], [9, 11], [7, 9], [1, 1], [11, 12]]}
+recall_final {'Yellow': 0.7499906251171861, 'Cyan': 0.08783780816290265, 'Black': 0.87999956000022, 'Red': 0.7986105565204469, 'Purple': 0.9057586880844565}
+precision_final {'Yellow': 0.1428571425170068, 'Cyan': 0.6341463399167162, 'Black': 0.49858356926385733, 'Red': 0.5523809521179138, 'Purple': 0.5924657532217582}
+F1 {'Yellow': 0.2399995195209619, 'Cyan': 0.15430262479022927, 'Black': 0.6365279137134825, 'Red': 0.6530570425669003, 'Purple': 0.7163559591982784}

@@ -1,0 +1,4 @@
+Name	K17 NEGATIVE TUMOR
+Color	-1
+Coordinates	1
+1547.8985	1048.2243

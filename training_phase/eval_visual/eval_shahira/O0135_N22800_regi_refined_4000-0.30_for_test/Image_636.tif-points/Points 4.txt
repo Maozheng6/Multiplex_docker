@@ -1,0 +1,4 @@
+Name	CD8
+Color	-1
+Coordinates	1
+592.5097	765.4988
