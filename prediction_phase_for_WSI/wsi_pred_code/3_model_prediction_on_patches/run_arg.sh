@@ -25,7 +25,7 @@ TEST_CSV=../2_generating_patch_list_csv/patch_lists_csv/19test.csv
 #3908-multires.csv
 #19test.csv
 #${SLIDE}-multires.csv
-python -u test_model_multiplex_1stain_8layer_batchloss_no-softmax_nowhite_resize_fix-shuffle_argmax_visual_argmax-map_bgr-mode.py \
+python -u test_model_multiplex_1stain_8layer_batchloss_no-softmax_nowhite_resize_fix-shuffle_argmax_visual_argmax-map_bgr-mode_modulized_version.py \
         --input=${TEST_CSV} \
         --output=${PRED_OUTPUT}/ \
         --model=${TEST_MODEL} \
@@ -34,6 +34,7 @@ python -u test_model_multiplex_1stain_8layer_batchloss_no-softmax_nowhite_resize
         --stain_num=${STAIN_NUM}\
         --channel_times=12\
         --resize_ratio=${RESIZE}\
+        --skip_exists=False\
         --paral_code=${PARAL_CODE}\
         --paral_max=${PARAL_MAX}\
         --input_image_mode='BGR'        
