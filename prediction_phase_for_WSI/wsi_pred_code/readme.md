@@ -82,7 +82,7 @@ Then run 'bash merge.py'.
 
 1) 1_run_poly_para_argmax.py
 
-Change the following lines in the file to your own folders:
+Change the following lines in the file to your own folders and suffix:
 
 #####################################
 #parameters to change
@@ -98,10 +98,27 @@ python 1_run_poly_para_argmax.py
 
 This step generates the polygon files as .csv for each class and each patch, they are saved in 'save_folder'.
 
-2)python 2_run_json.py <slide name> <suffix indicating the version of the model> <prefix indicating this version of polygon on quip4>
+2)2_run_json.py 
 
-For example:
+Change the following lines in this file to your own folders and suffix:
 
-python 2_run_json.py 3908-multires.tif _20x_10x_pred v8
+######################################################
+#input parameters
+##################################################
+#parameters to change
+#'output_method_prefix' is the prefix of the method name shown on caMicroscope, for the combined results from 10x and 20x, it should be 'v8_10x20xcomb_'
+output_method_prefix = 'v8_10x20x_comb_'
 
-This step generates the meta data for each patch as .json files for uploading the polygons to quip4, the results are also saved in '../../quip4_poly_dots_model_resized/6_slides/'. In that folder, for each patch there should be 2 files, one is .csv, the other is .json.
+###################################################
+#parameters that are same as the ones in 1_run_poly_para_argmax.py
+input_folder ='/scratch/KurcGroup/mazhao/multiplex_docker/quip_ihc_analysis/Multiplex_seg_docker/wsi_pred_output/pred_out/3908_10x_20x_pred'
+pred_folder_name = os.path.basename(input_folder)
+input_folder_suffix = '_10x_20x_pred'
+#'save_folder' is the output folder
+save_folder='../../wsi_pred_output/json_csv/'
+
+Then run:
+
+python 2_run_json.py 
+
+This step generates the meta data for each patch as .json files for uploading the polygons to quip4, the results are also saved in 'save_folder'. In that folder, for each patch there should be 2 files, one is .csv, the other is .json.
