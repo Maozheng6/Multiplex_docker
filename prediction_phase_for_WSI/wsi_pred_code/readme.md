@@ -62,10 +62,14 @@ The results are in '../../wsi_pred_output/pred_out/N4277_10x/' .
 
 # 3.5_merger_20x_10x
 
+Change the lines in in run_merge.sh 
+
 nohup python -u merge.py \
-/scratch/KurcGroup/mazhao/multiplex_docker/quip_ihc_analysis/Multiplex_seg_docker/wsi_pred/pred_out/3908_10x_pred/ \
-/scratch/KurcGroup/mazhao/multiplex_docker/quip_ihc_analysis/Multiplex_seg_docker/wsi_pred/pred_out/3908_20x_pred/ \
-/scratch/KurcGroup/mazhao/multiplex_docker/quip_ihc_analysis/Multiplex_seg_docker/wsi_pred/pred_out/3908_20x_10x_pred/ &
+<10x results folder> \
+<20x results folder> \
+<folder to save the merged results from 10x and 20x results> &
+
+Then run 'bash merge.py'.
 
 # 4_generate_polygons_and_meta_files_for_qui4
 
