@@ -76,7 +76,7 @@ nohup python -u merge.py \
 /scratch/KurcGroup/mazhao/multiplex_docker/quip_ihc_analysis/Multiplex_seg_docker/wsi_pred/pred_out/3908_20x_10x_pred/ &
 © 2020 GitHub, Inc.
 
-Then run 'bash merge.py'.
+Then run 'bash merge.sh'.
 
 # 4_generate_polygons_and_meta_files_for_qui4
 
