@@ -60,6 +60,13 @@ run "bash run_all_tiles.sh"
 The results are in '../../wsi_pred_output/pred_out/N4277_10x/' .
 
 
+# 3.5_merger_20x_10x
+
+nohup python -u merge.py \
+/scratch/KurcGroup/mazhao/multiplex_docker/quip_ihc_analysis/Multiplex_seg_docker/wsi_pred/pred_out/3908_10x_pred/ \
+/scratch/KurcGroup/mazhao/multiplex_docker/quip_ihc_analysis/Multiplex_seg_docker/wsi_pred/pred_out/3908_20x_pred/ \
+/scratch/KurcGroup/mazhao/multiplex_docker/quip_ihc_analysis/Multiplex_seg_docker/wsi_pred/pred_out/3908_20x_10x_pred/ &
+
 # 4_generate_polygons_and_meta_files_for_qui4
 
 1)python 1_run_poly_para_argmax.py <slide name> <suffix indicating the version of the model> 
