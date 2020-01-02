@@ -69,15 +69,22 @@ nohup python -u merge.py \
 <20x results folder> \
 <folder to save the merged results from 10x and 20x results> &
 
+For example,
+nohup python -u merge.py \
+/scratch/KurcGroup/mazhao/multiplex_docker/quip_ihc_analysis/Multiplex_seg_docker/wsi_pred/pred_out/3908_10x_pred/ \
+/scratch/KurcGroup/mazhao/multiplex_docker/quip_ihc_analysis/Multiplex_seg_docker/wsi_pred/pred_out/3908_20x_pred/ \
+/scratch/KurcGroup/mazhao/multiplex_docker/quip_ihc_analysis/Multiplex_seg_docker/wsi_pred/pred_out/3908_20x_10x_pred/ &
+© 2020 GitHub, Inc.
+
 Then run 'bash merge.py'.
 
 # 4_generate_polygons_and_meta_files_for_qui4
 
-1)python 1_run_poly_para_argmax.py <slide name> <suffix indicating the version of the model> 
+1)python 1_run_poly_para_argmax.py <slide name> <suffix indicating the version of the results> 
 
 For example,
 
-python 1_run_poly_para_argmax.py N4277-multires.tif _6.6_1.0
+python 1_run_poly_para_argmax.py N4277-multires.tif _20x_10x_pred
 
 This step generates the polygon files as .csv for each class and each patch, they are saved in '../../quip4_poly_dots_model_resized/6_slides/'
 
@@ -85,6 +92,6 @@ This step generates the polygon files as .csv for each class and each patch, the
 
 For example:
 
-python 2_run_json.py 3908-multires.tif _6.6_1.0 v8
+python 2_run_json.py 3908-multires.tif _20x_10x_pred v8
 
 This step generates the meta data for each patch as .json files for uploading the polygons to quip4, the results are also saved in '../../quip4_poly_dots_model_resized/6_slides/'. In that folder, for each patch there should be 2 files, one is .csv, the other is .json.
