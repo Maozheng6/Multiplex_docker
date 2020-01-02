@@ -27,15 +27,15 @@ Now we have two models, the model trained under 20x resolution and the model tra
 
 To run the prediction of 20x for one slide:
 
-1) put the parameters in tiles_GPU.txt, and run 'bash run_all_tiles.sh'. Make sure the =20X in run_all_tiles.sh.
+1) put the parameters in tiles_GPU.txt, and run 'bash run_all_tiles.sh'. Make sure the 'RESOLUTION=20x' in run_all_tiles.sh.
 
-Each row in tiles_GPU_20x.txt is a process of running prediction.
+Each row in tiles_GPU.txt is a process of running prediction.
 
 <GPU to be used for this process> <slide name without '-multires.tif'> <maxmum number of processes run in parallel for this slide> <index of this process in the parallel> <suffix for this version model for differentiate the results from other models, for 20x model, the suffix should be the same>
   
 For <maxmum number of processes run in parallel for this slide> <index of this process in the parallel>, we divide all the patches of a WSI into <maxmum number of processes run in parallel for this slide> parts, each process runs one part of the patches, the index of the part is <index of this process in the parallel>.
 
-One example file content for tiles_GPU_20x.txt is as follows:
+One example file content for tiles_GPU.txt is as follows:
 
 7 N4277 3 0 _6.1_1.0
 
@@ -45,7 +45,7 @@ One example file content for tiles_GPU_20x.txt is as follows:
 
 It means using the 6th GPU to run the slide N4277-multires.tif, all the patches are divided into 3 parts, each process from 0-2 runs one of the part, the suffix for this version of results are _6.6_1.0, all the results for this slide are saved in /scratch/KurcGroup/mazhao/wsi_prediction/pred_out_6_slides_300/N4277_6.1_1.0
 
-For running the 10x model, one example of tiles_GPU_10x.txt is as follows:
+For running the 10x model, use 'RESOLUTION=10x' in run_all_tiles.sh. One example of tiles_GPU_10x.txt is as follows:
 
 6 N4277 3 0 _6.6_1.0
 
@@ -55,7 +55,7 @@ For running the 10x model, one example of tiles_GPU_10x.txt is as follows:
 
 The suffix of this model ("_6.6_1.0") should be different from that of the 20x, so that the results are saved in different folders.
 
-run "bash run_all_tiles_10x.sh"
+run "bash run_all_tiles.sh"
 
 The results are in /scratch/KurcGroup/mazhao/wsi_prediction/pred_out_6_slides_300/N4277_6.6_1.0
 
