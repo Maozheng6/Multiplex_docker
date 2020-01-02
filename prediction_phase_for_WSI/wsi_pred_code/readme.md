@@ -27,7 +27,7 @@ Now we have two models, the model trained under 20x resolution and the model tra
 
 To run the prediction of 20x for one slide:
 
-1) put the parameters in tiles_GPU_20x.txt, and run 'bash run_all_tiles_20x.sh'.
+1) put the parameters in tiles_GPU.txt, and run 'bash run_all_tiles.sh'. Make sure the =20X in run_all_tiles.sh.
 
 Each row in tiles_GPU_20x.txt is a process of running prediction.
 
@@ -58,23 +58,6 @@ The suffix of this model ("_6.6_1.0") should be different from that of the 20x, 
 run "bash run_all_tiles_10x.sh"
 
 The results are in /scratch/KurcGroup/mazhao/wsi_prediction/pred_out_6_slides_300/N4277_6.6_1.0
-
-
-# 3_model_prediction_on_patches_shahira
-
-This part is for predicting with pytorch model.
-
-Change the following to make the code predicting with pytorch model.
-
-
-In run_arg_20x.sh change the TEST_MODEL to the directory of your pytorch model.
-
-In test_model_multiplex_1stain_8layer_batchloss_no-softmax_nowhite_resize_fix-shuffle_argmax_visual_argmax-map_bgr-mode.py, in lines with 'model.eval' are predicting with the cntk models, change this line to pytorch model prediction.
-
-model = cntk.load_model(model_fn) is loading the cntk model, it should be changed to pytorch model.
-
-
-input_shape = model.arguments[0].shape is getting the imput image shape of the network.
 
 
 
