@@ -27,7 +27,7 @@ Now we have two models, the model trained under 20x resolution and the model tra
 
 To run the prediction of 20x for one slide:
 
-1) put the parameters in tiles_GPU.txt, and run 'bash run_all_tiles.sh'. Make sure the 'RESOLUTION=20x' in run_all_tiles.sh.
+1) put the parameters in tiles_GPU.txt, and run 'bash run_all_tiles.sh'. Make sure the 'RESOLUTION=20x' in run_arg.sh.
 
 Each row in tiles_GPU.txt is a process of running prediction.
 
@@ -45,7 +45,7 @@ One example file content for tiles_GPU.txt is as follows:
 
 It means using the 6th GPU to run the slide N4277-multires.tif, all the patches are divided into 3 parts, each process from 0-2 runs one of the part, the suffix for this version of results are _6.6_1.0, all the results for this slide are saved in /scratch/KurcGroup/mazhao/wsi_prediction/pred_out_6_slides_300/N4277_6.1_1.0
 
-For running the 10x model, use 'RESOLUTION=10x' in run_all_tiles.sh. One example of tiles_GPU_10x.txt is as follows:
+For running the 10x model, use 'RESOLUTION=10x' in run_arg.sh. One example of tiles_GPU_10x.txt is as follows:
 
 6 N4277 3 0 _6.6_1.0
 
