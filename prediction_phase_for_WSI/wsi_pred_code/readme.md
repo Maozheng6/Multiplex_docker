@@ -37,28 +37,27 @@ For <maxmum number of processes run in parallel for this slide> <index of this p
 
 One example file content for tiles_GPU.txt is as follows:
 
-7 N4277 3 0 _6.1_1.0
+7 N4277 3 0 _20x
 
-7 N4277 3 1 _6.1_1.0
+7 N4277 3 1 _20x
 
-7 N4277 3 2 _6.1_1.0
+7 N4277 3 2 _20x
 
-It means using the 6th GPU to run the slide N4277-multires.tif, all the patches are divided into 3 parts, each process from 0-2 runs one of the part, the suffix for this version of results are _6.6_1.0, all the results for this slide are saved in /scratch/KurcGroup/mazhao/wsi_prediction/pred_out_6_slides_300/N4277_6.1_1.0
+It means using the 6th GPU to run the slide N4277-multires.tif, all the patches are divided into 3 parts, each process from 0-2 runs one of the part, the suffix for this version of results are _20x, all the results for this slide are saved in 'PRED_OUTPUT=../../wsi_pred_output/pred_out/${SLIDE}_${RESOLUTION}_${SUFFIX}' in run_arg.sh, Here it's '../../wsi_pred_output/pred_out/N4277_20x/' 
 
 For running the 10x model, use 'RESOLUTION=10x' in run_arg.sh. One example of tiles_GPU_10x.txt is as follows:
 
-6 N4277 3 0 _6.6_1.0
+6 N4277 3 0 _10x
 
-6 N4277 3 1 _6.6_1.0
+6 N4277 3 1 _10x
 
-6 N4277 3 2 _6.6_1.0
+6 N4277 3 2 _10x
 
-The suffix of this model ("_6.6_1.0") should be different from that of the 20x, so that the results are saved in different folders.
+The suffix of this model ("_10x") should be different from that of the 20x, so that the results are saved in different folders.
 
 run "bash run_all_tiles.sh"
 
-The results are in /scratch/KurcGroup/mazhao/wsi_prediction/pred_out_6_slides_300/N4277_6.6_1.0
-
+The results are in '../../wsi_pred_output/pred_out/N4277_10x/' .
 
 
 # 4_generate_polygons_and_meta_files_for_qui4
