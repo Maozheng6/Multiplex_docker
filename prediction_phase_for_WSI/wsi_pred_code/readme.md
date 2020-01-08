@@ -27,71 +27,97 @@ Now we have two models, the model trained under 20x resolution and the model tra
 
 To run the prediction of 20x for one slide:
 
-1) put the parameters in tiles_GPU_20x.txt, and run 'bash run_all_tiles_20x.sh'.
+1) put the parameters in tiles_GPU.txt, and run 'bash run_all_tiles.sh'. Make sure the 'RESOLUTION=20x' in run_arg.sh.
 
-Each row in tiles_GPU_20x.txt is a process of running prediction.
+Each row in tiles_GPU.txt is a process of running prediction.
 
 <GPU to be used for this process> <slide name without '-multires.tif'> <maxmum number of processes run in parallel for this slide> <index of this process in the parallel> <suffix for this version model for differentiate the results from other models, for 20x model, the suffix should be the same>
   
 For <maxmum number of processes run in parallel for this slide> <index of this process in the parallel>, we divide all the patches of a WSI into <maxmum number of processes run in parallel for this slide> parts, each process runs one part of the patches, the index of the part is <index of this process in the parallel>.
 
-One example file content for tiles_GPU_20x.txt is as follows:
+One example file content for tiles_GPU.txt is as follows:
 
-7 N4277 3 0 _6.1_1.0
+7 N4277 3 0 _20x
 
-7 N4277 3 1 _6.1_1.0
+7 N4277 3 1 _20x
 
-7 N4277 3 2 _6.1_1.0
+7 N4277 3 2 _20x
 
-It means using the 6th GPU to run the slide N4277-multires.tif, all the patches are divided into 3 parts, each process from 0-2 runs one of the part, the suffix for this version of results are _6.6_1.0, all the results for this slide are saved in /scratch/KurcGroup/mazhao/wsi_prediction/pred_out_6_slides_300/N4277_6.1_1.0
+It means using the 6th GPU to run the slide N4277-multires.tif, all the patches are divided into 3 parts, each process from 0-2 runs one of the part, the suffix for this version of results are _20x, all the results for this slide are saved in 'PRED_OUTPUT=../../wsi_pred_output/pred_out/${SLIDE}_${RESOLUTION}_${SUFFIX}' in run_arg.sh, Here it's '../../wsi_pred_output/pred_out/N4277_20x/' 
 
-For running the 10x model, one example of tiles_GPU_10x.txt is as follows:
+For running the 10x model, use 'RESOLUTION=10x' in run_arg.sh. One example of tiles_GPU_10x.txt is as follows:
 
-6 N4277 3 0 _6.6_1.0
+6 N4277 3 0 _10x
 
-6 N4277 3 1 _6.6_1.0
+6 N4277 3 1 _10x
 
-6 N4277 3 2 _6.6_1.0
+6 N4277 3 2 _10x
 
-The suffix of this model ("_6.6_1.0") should be different from that of the 20x, so that the results are saved in different folders.
+The suffix of this model ("_10x") should be different from that of the 20x, so that the results are saved in different folders.
 
-run "bash run_all_tiles_10x.sh"
+run "bash run_all_tiles.sh"
 
-The results are in /scratch/KurcGroup/mazhao/wsi_prediction/pred_out_6_slides_300/N4277_6.6_1.0
-
-
-# 3_model_prediction_on_patches_shahira
-
-This part is for predicting with pytorch model.
-
-Change the following to make the code predicting with pytorch model.
+The results are in '../../wsi_pred_output/pred_out/N4277_10x/' .
 
 
-In run_arg_20x.sh change the TEST_MODEL to the directory of your pytorch model.
+# 3.5_merger_20x_10x
 
-In test_model_multiplex_1stain_8layer_batchloss_no-softmax_nowhite_resize_fix-shuffle_argmax_visual_argmax-map_bgr-mode.py, in lines with 'model.eval' are predicting with the cntk models, change this line to pytorch model prediction.
+Change the lines in in run_merge.sh 
 
-model = cntk.load_model(model_fn) is loading the cntk model, it should be changed to pytorch model.
+nohup python -u merge.py \
+<10x results folder> \
+<20x results folder> \
+<folder to save the merged results from 10x and 20x results> &
 
+For example,
+nohup python -u merge.py \
+/scratch/KurcGroup/mazhao/multiplex_docker/quip_ihc_analysis/Multiplex_seg_docker/wsi_pred/pred_out/3908_10x_pred/ \
+/scratch/KurcGroup/mazhao/multiplex_docker/quip_ihc_analysis/Multiplex_seg_docker/wsi_pred/pred_out/3908_20x_pred/ \
+/scratch/KurcGroup/mazhao/multiplex_docker/quip_ihc_analysis/Multiplex_seg_docker/wsi_pred/pred_out/3908_20x_10x_pred/ &
 
-input_shape = model.arguments[0].shape is getting the imput image shape of the network.
-
-
+Then run 'bash merge.sh'.
 
 # 4_generate_polygons_and_meta_files_for_qui4
 
-1)python 1_run_poly_para_argmax.py <slide name> <suffix indicating the version of the model> 
+1) 1_run_poly_para_argmax.py
 
-For example,
+Change the following lines in the file to your own folders and suffix:
 
-python 1_run_poly_para_argmax.py N4277-multires.tif _6.6_1.0
+#####################################
+#parameters to change
+input_folder ='/scratch/KurcGroup/mazhao/multiplex_docker/quip_ihc_analysis/Multiplex_seg_docker/wsi_pred_output/pred_out/3908_10x_20x_pred'
+pred_folder_name = os.path.basename(input_folder)
+pred_folder_name_suffix = '_10x_20x_pred'
+#'save_folder' is the output folder
+save_folder='../../wsi_pred_output/json_csv/'
 
-This step generates the polygon files as .csv for each class and each patch, they are saved in '../../quip4_poly_dots_model_resized/6_slides/'
+Then run:
 
-2)python 2_run_json.py <slide name> <suffix indicating the version of the model> <prefix indicating this version of polygon on quip4>
+python 1_run_poly_para_argmax.py 
 
-For example:
+This step generates the polygon files as .csv for each class and each patch, they are saved in 'save_folder'.
 
-python 2_run_json.py 3908-multires.tif _6.6_1.0 v8
+2)2_run_json.py 
 
-This step generates the meta data for each patch as .json files for uploading the polygons to quip4, the results are also saved in '../../quip4_poly_dots_model_resized/6_slides/'. In that folder, for each patch there should be 2 files, one is .csv, the other is .json.
+Change the following lines in this file to your own folders and suffix:
+
+######################################################
+#input parameters
+##################################################
+#parameters to change
+#'output_method_prefix' is the prefix of the method name shown on caMicroscope, for the combined results from 10x and 20x, it should be 'v8_10x20xcomb_'
+output_method_prefix = 'v8_10x20x_comb_'
+
+###################################################
+#parameters that are same as the ones in 1_run_poly_para_argmax.py
+input_folder ='/scratch/KurcGroup/mazhao/multiplex_docker/quip_ihc_analysis/Multiplex_seg_docker/wsi_pred_output/pred_out/3908_10x_20x_pred'
+pred_folder_name = os.path.basename(input_folder)
+input_folder_suffix = '_10x_20x_pred'
+#'save_folder' is the output folder
+save_folder='../../wsi_pred_output/json_csv/'
+
+Then run:
+
+python 2_run_json.py 
+
+This step generates the meta data for each patch as .json files for uploading the polygons to quip4, the results are also saved in 'save_folder'. In that folder, for each patch there should be 2 files, one is .csv, the other is .json.
