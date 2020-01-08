@@ -2,6 +2,7 @@ import numpy as np
 import openslide
 import sys
 import os
+import cntk
 from PIL import Image
 import cv2
 def stain_normalized_tiling(outfolder,slide_name, patch_size, do_actually_read_image=True):
@@ -232,17 +233,32 @@ wsi_path = sys.argv[1]
 slide=os.path.basename(wsi_path)
 #slide_list[0]
 print('slide to tile',slide)
+model_20x_path = '../../wsi_pred_models/models/cnn_300_20x.model'
+model_10x_path = '../../wsi_pred_models/models/cnn_300_10x.model'
+resize_ratio = 0.5
+channel_times = 1
+out_put_times =1
+stain_num =7
+skip_exists = True
 #cnn_pred_mask( wsi_path)
 outfolder='../../../tiles_slide/'+slide[:-4]+'/'
+savefolder = outfolder
 if not os.path.exists(outfolder):
     os.makedirs(outfolder)
 tiling= stain_normalized_tiling(outfolder, wsi_path, 4000, True)
+model = load_model(model_20x_path)
+input_shape = model.arguments[0].shape
+model_input_size = input_shape[1]
+
 while tiling:
     uint8patch, patch_info, wsi_dim = next(tiling)
     exist_flag, px, py, pw_x, pw_y, ori_size0, ori_size1, mpp, scale_factor = patch_info
     print(px,py)
     outf = os.path.join(outfolder, '{}_{}_{}_{}_{}_{}_SEG.png'.format(px, py, pw_x, pw_y, mpp, scale_factor))
+    naip_fn = outf
     if exist_flag ==0:
+        naip_tile = uint8patch
         uint8patch = Image.fromarray(uint8patch)
         uint8patch.save(outf)
+        flag, argmax_map, net_output, ori_img = predict_one_patch(naip_tile,resize_ratio,channel_times,model,model_input_size,out_put_times,stain_num,savefolder,  naip_fn, skip_exists)
 
