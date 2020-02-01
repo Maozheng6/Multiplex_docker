@@ -1,0 +1,3 @@
+Name	CD20
+Color	-65536
+Coordinates	0
