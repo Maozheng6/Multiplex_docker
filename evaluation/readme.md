@@ -12,11 +12,11 @@ Image_*dots_map_visual.png is a map shows the location of all dots.
 
 ##code for F1
 
-The code for F1 score
+The code for F1 score is
 
 ./evaluation_script/visualize_dots_v5_bi_parall_supplementary_argmax_19test_registered.py
 
-parameters to change in this script are as follows.
+The parameters to change in this script are as follows.
 
 #The folder of test set
 
