@@ -238,7 +238,7 @@ def main():
         edge_sigma=edge_sigma,
         edge_loss_boost=edge_loss_boost,
         patch_list=test_patch_list,
-        patch_list2_dots_only=None,
+        patch_list2_dots_only=train_patch_list_dots,
         unet_level=unet_level,
         stain_num=stain_num,
         start_stain=start_stain,

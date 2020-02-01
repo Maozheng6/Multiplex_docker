@@ -564,6 +564,9 @@ class MyDataSource(cntk.io.UserMinibatchSource):
                 print('random_value > self.dots_patch_ratio')
                 sample_from_new_list = False
 
+        #only sample from list with dots
+        sample_from_new_list = True
+
         ins_id = 0
         while ins_id < mb_size:
             '''
